@@ -6,10 +6,6 @@ import { dataText } from '../../src/common/constants/dataText'
 export default function Header() {
 	return (
 		<S.ContentHeader>
-			<S.Text>
-				<h1>{dataText.TITLE}</h1>
-				<h2>{dataText.SUBTITLE}</h2>
-			</S.Text>
 			<ul>
 				<li onClick={() => redirect('/')}>Home</li>
 				<li onClick={() => redirect('/members')}>Membros</li>
@@ -19,6 +15,10 @@ export default function Header() {
 				<li onClick={() => redirect('/ourCell')}>Nossa célula</li>
 				<li onClick={() => redirect('/contacts')}>Contatos</li>
 			</ul>
+			<S.Text>
+				<h1>{dataText.TITLE}</h1>
+				<h2>{dataText.SUBTITLE}</h2>
+			</S.Text>
 		</S.ContentHeader>
 	)
 }
