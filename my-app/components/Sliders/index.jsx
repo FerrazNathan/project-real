@@ -16,22 +16,22 @@ export default function Sliders() {
 		<S.Container>
 			<Slider {...settings}>
 				<div>
-					<h3>1</h3>
+					<h1>1</h1>
 				</div>
 				<div>
-					<h3>2</h3>
+					<h1>2</h1>
 				</div>
 				<div>
-					<h3>3</h3>
+					<h1>3</h1>
 				</div>
 				<div>
-					<h3>4</h3>
+					<h1>4</h1>
 				</div>
 				<div>
-					<h3>5</h3>
+					<h1>5</h1>
 				</div>
 				<div>
-					<h3>6</h3>
+					<h1>6</h1>
 				</div>
 			</Slider>
 		</S.Container>
