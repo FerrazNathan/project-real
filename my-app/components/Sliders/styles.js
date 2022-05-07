@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  display: 100%;
-  background-color: red;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
 `

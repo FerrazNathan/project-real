@@ -5,7 +5,7 @@ import { dataText } from '../../src/common/constants/dataText'
 
 export default function Header() {
 	return (
-		<S.ContentHeader>
+		<S.ContentFooter>
 			<ul>
 				<li onClick={() => redirect('/')}>Home</li>
 				<li onClick={() => redirect('/members')}>Membros</li>
@@ -19,6 +19,6 @@ export default function Header() {
 				<h1>{dataText.TITLE}</h1>
 				<h2>{dataText.SUBTITLE}</h2>
 			</S.Text>
-		</S.ContentHeader>
+		</S.ContentFooter>
 	)
 }
