@@ -1,5 +1,3 @@
-import '~slick-carousel/slick/slick.css' 
-import '~slick-carousel/slick/slick-theme.css'
 import '../styles/globals.css'
 
 // eslint-disable-next-line react/prop-types

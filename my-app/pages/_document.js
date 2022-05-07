@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
 		return (
 			<html>
 				<Head>
-					<title>My page</title>
+					<title>Célula 30</title>
 				</Head>
 				<body>
 					<Main />
