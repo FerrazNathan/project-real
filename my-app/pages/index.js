@@ -4,10 +4,21 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 export default function Home() {
+
+	const settings = {
+		spaceBetween: 50,
+		slidesPerView: 3,
+		navigation: true,
+		loop: true,
+		pagination: {
+			clickable: true,
+		}
+	}
+
 	return (
 		<div className={styles.container}>
 			<Header />
-			<Sliders />
+			<Sliders settings={settings} />
 			<Footer />
 		</div>
 	)

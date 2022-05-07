@@ -8,6 +8,7 @@ export const ContentHeader = styled.div`
   background-color: #282c34;
   color: #F0D882;
   padding: 20px;
+  border: 1px solid #F0D882;
   & ul {
     margin-top: 35px;
     display: flex;

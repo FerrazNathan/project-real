@@ -1,39 +1,54 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
-import Slider from 'react-slick'
 import * as S from './styles'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { A11y, Navigation, Pagination } from 'swiper'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import './slider.module.css'
 
-export default function Sliders() {
-
-	const settings = {
-		dots: true,
-		infinite: false,
-		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1
-	}
+export default function Sliders({ settings, children }) {
 
 	return (
-		<S.Container>
-			<Slider {...settings}>
-				<div>
-					<h3>1</h3>
-				</div>
-				<div>
-					<h3>2</h3>
-				</div>
-				<div>
-					<h3>3</h3>
-				</div>
-				<div>
-					<h3>4</h3>
-				</div>
-				<div>
-					<h3>5</h3>
-				</div>
-				<div>
-					<h3>6</h3>
-				</div>
-			</Slider>
-		</S.Container>
+		<Swiper
+			modules=
+				{[Navigation, Pagination, A11y]}
+			{...settings}
+		>
+			{children}
+			<S.Container>
+				<SwiperSlide>
+					<a href='/members'>
+						<img src='https://i1.sndcdn.com/avatars-000110228955-57sa1f-t500x500.jpg' />
+					</a>
+				</SwiperSlide>
+				<SwiperSlide>
+					<a href='/words'>
+						<img src='https://i1.sndcdn.com/avatars-000110228955-57sa1f-t500x500.jpg' />
+					</a>
+				</SwiperSlide>
+				<SwiperSlide>
+					<a href='/events'>
+						<img src='https://i1.sndcdn.com/avatars-000110228955-57sa1f-t500x500.jpg' />
+					</a>
+				</SwiperSlide>
+				<SwiperSlide>
+					<a href='/testimonies'>
+						<img src='https://i1.sndcdn.com/avatars-000110228955-57sa1f-t500x500.jpg' />
+					</a>
+				</SwiperSlide>
+				<SwiperSlide>
+					<a href='/ourCell'>
+						<img src='https://i1.sndcdn.com/avatars-000110228955-57sa1f-t500x500.jpg' />
+					</a>
+				</SwiperSlide>
+				<SwiperSlide>
+					<a href='/contacts'>
+						<img src='https://i1.sndcdn.com/avatars-000110228955-57sa1f-t500x500.jpg' />
+					</a>
+				</SwiperSlide>
+			</S.Container>
+		</Swiper>
 	)
 }

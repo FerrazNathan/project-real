@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ContentHeader = styled.div`
+export const ContentFooter = styled.div`
   max-width: 1440px;
   width: 100%;
   height: 10%;
@@ -8,6 +8,7 @@ export const ContentHeader = styled.div`
   background-color: #282c34;
   color: #F0D882;
   padding: 5px;
+  border: 1px solid #F0D882;
   & ul {
     margin-top: 20px;
     display: flex;
