@@ -6,8 +6,8 @@ import Footer from '../components/Footer'
 export default function Home() {
 
 	const settings = {
-		spaceBetween: 50,
-		slidesPerView: 3,
+		spaceBetween: 10,
+		slidesPerView: 4,
 		navigation: true,
 		loop: true,
 		pagination: {

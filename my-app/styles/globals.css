@@ -18,3 +18,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.swiper-slide{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 77%;
+  background-color: #143D59;
+}
+
+.single{
+  padding: 5px;
+  color: #FFF;
+  margin: 0 auto;
+  height: 20vh;
+}
+
+.single img{
+  width: 358px;
+}
