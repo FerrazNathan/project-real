@@ -17,3 +17,17 @@
 .swiper-button-next::after{
   color: #718096;
 }
+
+.container{
+  width: 90%;
+}
+
+.single{
+  background-color: #143D59;
+  padding: 10px;
+  color: #FFF;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 6rem;
+  height: 20vh;
+}

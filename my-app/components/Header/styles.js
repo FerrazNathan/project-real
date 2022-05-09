@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContentHeader = styled.div`
-  max-width: 1440px;
+  max-width: 1431px;
   width: 100%;
   height: 15%;
   margin: 0 auto;
