@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  margin: 0 auto;
+  margin: 50px auto;
   max-width: 1400px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 80vh;
+  height: 100vh;
 `
 
 export const Title = styled.h1`
@@ -43,6 +43,10 @@ export const Input = styled.input`
   &:focus{
     background-color: #e8f0fe;
   }
+  @media(max-width: 480px){
+    width: 60%;
+    margin-left: 5rem;
+  }
 `
 
 export const Buttons = styled.div`
@@ -53,7 +57,7 @@ export const Buttons = styled.div`
 
 export const Button = styled.button`
   background-color: #143D59;
-  color: #FFF;
+  color: #F0D882;
   border-radius: 5px;
   border: none;
   margin-right: 20px;
