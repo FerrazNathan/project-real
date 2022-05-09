@@ -7,12 +7,16 @@ export default function Home() {
 
 	const settings = {
 		spaceBetween: 10,
-		slidesPerView: 4,
+		slidesPerView: 1,
 		navigation: true,
 		loop: true,
+		autoplay: {
+			delay: 3500,
+			disableOnInteraction: false,
+		},
 		pagination: {
 			clickable: true,
-		}
+		},
 	}
 
 	return (
