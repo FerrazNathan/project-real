@@ -6,13 +6,17 @@ import Footer from '../components/Footer'
 export default function Home() {
 
 	const settings = {
-		spaceBetween: 50,
-		slidesPerView: 3,
+		spaceBetween: 10,
+		slidesPerView: 1,
 		navigation: true,
 		loop: true,
+		autoplay: {
+			delay: 3500,
+			disableOnInteraction: false,
+		},
 		pagination: {
 			clickable: true,
-		}
+		},
 	}
 
 	return (

@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* background-color: #282c34; */
 }
 
 a {
@@ -17,4 +18,26 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 77%;
+  background-color: #143D59;
+}
+
+.single {
+  padding: 5px;
+  color: #FFF;
+  margin: 0 auto;
+  height: 20vh;
+}
+
+.single img {
+  width: 55vw;
+  height: 45vh;
 }

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContentFooter = styled.div`
-  max-width: 1440px;
+  max-width: 1431px;
   width: 100%;
   height: 10%;
   margin: 0 auto;
