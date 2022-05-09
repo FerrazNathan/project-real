@@ -13,12 +13,15 @@ export default function Form() {
 	const access = 'Celula08!'
 	const redirectPage = useRouter()
 
-	const submit = (event) => {
-		event.preventDefault()
+	const submit = () => {
+		// event.preventDefault()
+
+		console.log('entrou na função')
 
 		if (password === access) {
 			localStorage.setItem('logged', 'isLogged')
 			redirectPage.push('/')
+			console.log('ok')
 		}
 		else {
 			setError(true)
@@ -38,8 +41,8 @@ export default function Form() {
 					onChange={(event) => setPassword(event.target.value)}
 				/>
 				<S.Buttons>
-					<S.Button type='submit'>Já sou membro</S.Button>
-					<S.Button type='submit' onClick={() => redirect('/')}>Entrar como convidado</S.Button>
+					<S.Button type='submit' onClick={() => submit()}>Já sou membro</S.Button>
+					<S.Button type='button' onClick={() => redirect('/')}>Entrar como convidado</S.Button>
 				</S.Buttons>
 			</S.Container>
 		</>
