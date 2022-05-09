@@ -16,12 +16,9 @@ export default function Form() {
 	const submit = () => {
 		// event.preventDefault()
 
-		console.log('entrou na função')
-
 		if (password === access) {
-			localStorage.setItem('logged', 'isLogged')
-			redirectPage.push('/')
-			console.log('ok')
+			localStorage.setItem('member', 'true')
+			redirectPage.push('/home')
 		}
 		else {
 			setError(true)
@@ -42,7 +39,7 @@ export default function Form() {
 				/>
 				<S.Buttons>
 					<S.Button type='submit' onClick={() => submit()}>Já sou membro</S.Button>
-					<S.Button type='button' onClick={() => redirect('/')}>Entrar como convidado</S.Button>
+					<S.Button type='button' onClick={() => redirect('/home')}>Entrar como convidado</S.Button>
 				</S.Buttons>
 			</S.Container>
 		</>

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.section`
+export const Container = styled.footer`
   width: 100%;
   background-color: #282c34;
   position: relative;
@@ -13,7 +13,8 @@ export const ContentFooter = styled.div`
   margin: 0 auto;
   background-color: #282c34;
   color: #F0D882;
-  padding: 5px;
+  padding: 5px 20px;
+  margin-top: 2.9rem;
   & ul {
     margin-top: 20px;
     display: flex;

@@ -28,7 +28,8 @@ a {
 
 .container {
   width: 73%;
-  background-color: #143D59;
+  /* background-color: #143D59; */
+  margin: 0 auto;
 }
 
 .single {
@@ -39,6 +40,6 @@ a {
 }
 
 .single img {
-  width: 55vw;
-  height: 45vh;
+  width: 60vw;
+  height: 50vh;
 }
