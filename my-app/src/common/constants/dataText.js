@@ -7,4 +7,6 @@ export const dataText = {
 	ERRORINVITE: 'Seja bem vindo em nome de Jesus',
 	WHATISACELL: 'O que é uma célula',
 	BYSHEPERD: 'By Pastor Aluízio Silva',
+	WORDSSHEPERD: 'Palavras Poderosas dos nossos pastores',
+	LASTNEWS: 'Fique atento às nossas novidades'
 }
