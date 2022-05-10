@@ -7,7 +7,7 @@ export const Container = styled.footer`
 `
 
 export const ContentFooter = styled.div`
-  max-width: 1431px;
+  max-width: 1335px;
   width: 100%;
   height: 10%;
   margin: 0 auto;
@@ -17,9 +17,10 @@ export const ContentFooter = styled.div`
   margin-top: 2.9rem;
   & ul {
     margin-top: 20px;
+    margin-right: 3%;
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     cursor: pointer;
     & :hover{
