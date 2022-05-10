@@ -2,37 +2,36 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
 	position: relative;
-	width: 440px;
+	width: 35vw;
 	margin: 0 auto;
 	@media (max-width: 480px){
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin: 180px 20px 0 20px;
 	}
 `
 
 export const Content = styled.div`
 	position: absolute;
-	border: 1px solid #d5b985;
-	width: 450px;
+	border: 1px solid #F0D882;
+	width: 30vw;
 	height: 220px;
 	border-radius: 10px;
 	text-align: center;
 	margin: 20px auto;
-	background-color: #fcf8e3;
+  background-color: #143D59;
 	font-family: 'Nunito Sans', sans-serif;
-	margin-top: 110px;
+	margin-top: 55vh;
 	& h1{
 		color: #d82424;
 	}
 	& p{
-		color: #d5b985;
+		color: #F0D882;
 		font-weight: 600;
 		font-size: 20px;
 	}
 	@media (max-width: 480px){
-		max-width: 440px;
-		width: 100%;
+		width: 90vw;
+		margin-top: 92rem;
 	}
 `
