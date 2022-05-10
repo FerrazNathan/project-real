@@ -6,5 +6,5 @@ export const dataText = {
 	ERRORTEXTTWO: 'e tenha acesso ao que de melhor acontece entre nós',
 	ERRORINVITE: 'Seja bem vindo em nome de Jesus',
 	WHATISACELL: 'O que é uma célula',
-	BYSHEPERD: 'By Pastor Aluísio Silva',
+	BYSHEPERD: 'By Pastor Aluízio Silva',
 }
