@@ -45,7 +45,7 @@ export default function Sliders({ settings, children }) {
 				</SwiperSlide>
 				<SwiperSlide className='single'>
 					<a href='/contacts'>
-						<img src='https://www.qwerty.com.br/wp-content/uploads/2021/10/REDES-5.jpg' />
+						<img src='https://tm.ibxk.com.br/2021/10/04/04125619753191.jpg?ims=1120x420' />
 					</a>
 				</SwiperSlide>
 			</S.Container>

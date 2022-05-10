@@ -1,7 +1,8 @@
 import React from 'react'
 import * as S from './styles'
 import { redirect } from '../../utils'
-import { dataText } from '../../src/common/constants/dataText'
+import { dataText } from '../../common/constants/dataText'
+// import { GoSignOut } from 'react-icons/go'
 
 export default function Header() {
 	return (
@@ -20,6 +21,9 @@ export default function Header() {
 					<li onClick={() => redirect('/ourCell')}>Nossa célula</li>
 					<li onClick={() => redirect('/contacts')}>Contatos</li>
 				</ul>
+				<S.Icon>					
+					{/* <p><GoSignOut /></p> */}
+				</S.Icon>
 			</S.ContentHeader>
 		</S.Container>
 	)

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useRouter } from 'next/router'
 import * as S from './styles'
 import Error from '../Error'
-import { dataText } from '../../src/common/constants/dataText'
+import { dataText } from '../../common/constants/dataText'
 import { redirect } from '../../utils'
 
 export default function Form() {

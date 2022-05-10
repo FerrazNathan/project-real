@@ -7,7 +7,7 @@ export default function Contacts() {
 		<div>
 			<Header />
 			<h1>Página de contatos</h1>
-			<Banner img='https://www.qwerty.com.br/wp-content/uploads/2021/10/REDES-5.jpg' />
+			<Banner img='https://tm.ibxk.com.br/2021/10/04/04125619753191.jpg?ims=1120x420' />
 			<Footer />
 		</div>
 	)

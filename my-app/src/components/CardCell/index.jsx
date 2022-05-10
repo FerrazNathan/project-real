@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from './styles'
-import { dataText } from '../../src/common/constants/dataText'
-import { explicationCell, explicationCell2, explicationCell3, explicationCell4, explicationCell5 } from '../../src/mock'
+import { dataText } from '../../common/constants/dataText'
+import { explicationCell, explicationCell2, explicationCell3, explicationCell4, explicationCell5 } from '../../mock/index'
 
 export default function CardCell() {
 	return (

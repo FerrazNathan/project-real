@@ -15,8 +15,6 @@ export default function Members() {
 		}
 	}, [])
 
-	console.log('member', member)
-
 	return (
 		<>
 			<Header />

@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from './styles'
 import { redirect } from '../../utils'
-import { dataText } from '../../src/common/constants/dataText'
+import { dataText } from '../../common/constants/dataText'
 
 export default function Header() {
 	return (
