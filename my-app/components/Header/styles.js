@@ -35,6 +35,8 @@ export const Text = styled.h1`
   font-weight: 400;
   margin-bottom: -15px;
   margin-top: 0;
+  font-size: 60px;
+  margin-top: -20px;
 }
   & h2{
     font-size: 35px;
