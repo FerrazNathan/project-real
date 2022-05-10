@@ -6,7 +6,7 @@ export const Container = styled.section`
 `
 
 export const ContentHeader = styled.div`
-  max-width: 1431px;
+  max-width: 1335px;
   width: 100%;
   height: 15%;
   margin: 0 auto;
@@ -15,9 +15,10 @@ export const ContentHeader = styled.div`
   padding: 20px;
   & ul {
     margin-top: 35px;
+    margin-right: 3%;
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     cursor: pointer;
     & :hover{

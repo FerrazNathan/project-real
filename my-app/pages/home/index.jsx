@@ -2,6 +2,7 @@ import Sliders from '../../components/Sliders'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import styles from '../../styles/Home.module.css'
+import CardCell from '../../components/CardCell'
 
 export default function Home() {
 
@@ -23,6 +24,7 @@ export default function Home() {
 		<div className={styles.container}>
 			<Header />
 			<Sliders settings={settings} />
+			<CardCell />
 			<Footer />
 		</div>
 	)

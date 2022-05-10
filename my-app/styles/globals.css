@@ -10,6 +10,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   /* background-color: #282c34; */
   /* background-color: #143D59; */
+  background-image: url('https://img.freepik.com/vetores-gratis/ondulacao-da-pagina-ondulacao-realista-de-pagina-clara-em-branco-com-sombra-no-fundo-branco-ilustracao-simples-do-modelo-de-papel-de-carta_124507-8280.jpg?w=2000');
 }
 
 a {
@@ -40,6 +41,6 @@ a {
 }
 
 .single img {
-  width: 60vw;
+  width: 64vw;
   height: 50vh;
 }
