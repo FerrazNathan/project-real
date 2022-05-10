@@ -12,14 +12,16 @@ export const ContentHeader = styled.div`
   margin: 0 auto;
   background-color: #282c34;
   color: #F0D882;
-  padding: 20px;
+  padding: 15px;
   & ul {
     margin-top: 35px;
     margin-right: 3%;
+    margin-bottom: 0;
     display: flex;
     text-align: center;
     justify-content: space-between;
     list-style: none;
+    font-family: 'Nunito Sans', sans-serif;
     cursor: pointer;
     & :hover{
     color: #FFF;
@@ -48,5 +50,5 @@ export const Text = styled.h1`
 `
 
 export const Icon = styled.img`
-  
+
 `

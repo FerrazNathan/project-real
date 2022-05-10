@@ -12,13 +12,14 @@ export const Header = styled.div`
   width: 15vw;
   height: 7vh;
   text-align: center;
-  /* border: 1px solid #CCC; */
   background-color: #282c34;
   border-radius: 5px 5px 0 0;
   padding: 3px;
   color: #F0D882;
+	font-family: 'Nunito Sans', sans-serif;
   & h1 {
     font-size: 18px;
+    font-weight: 400;
   }
 `
 

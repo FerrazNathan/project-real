@@ -14,10 +14,10 @@ export const Header = styled.div`
   padding: 1px;
   border-radius: 5px 5px 0 0;
   & h1 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 400;
   margin-bottom: 0;
-  margin-top: 20px;
+  margin-top: 10px;
   }
   & p {
     margin-top: 0;

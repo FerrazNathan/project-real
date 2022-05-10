@@ -22,6 +22,7 @@ export const ContentFooter = styled.div`
     text-align: center;
     justify-content: space-between;
     list-style: none;
+    font-family: 'Nunito Sans', sans-serif;
     cursor: pointer;
     & :hover{
     color: #FFF;

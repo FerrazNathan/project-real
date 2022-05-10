@@ -12,6 +12,6 @@ export const Container = styled.div`
     font-family: 'Great Vibes', cursive;
     color: #F0D882;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 45px;
   }
 `
