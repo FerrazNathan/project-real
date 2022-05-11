@@ -1,9 +1,11 @@
 import styled from 'styled-components'
 
 export const Card = styled.div`
-  width: 1240px;
+  width: 100%;
+  max-width: 1290px;
+  height: auto;
   margin: -10px auto;
   display: flex;
-  justify-content: center;
   align-items: center;
-`
+  flex-wrap: wrap;
+  justify-content: space-between;`

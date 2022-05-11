@@ -8,9 +8,9 @@ export default function CardNews({ title, text }) {
 			<S.Header>
 				<h1>{title}</h1>
 			</S.Header>
-			<S.Content>
+			<S.ContentText>
 				<p>{text}</p>
-			</S.Content>
+			</S.ContentText>
 		</S.Container>
 	)
 }
