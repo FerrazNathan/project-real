@@ -10,7 +10,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   /* background-color: #282c34; */
   /* background-color: #143D59; */
-  background-image: url('https://img.freepik.com/vetores-gratis/ondulacao-da-pagina-ondulacao-realista-de-pagina-clara-em-branco-com-sombra-no-fundo-branco-ilustracao-simples-do-modelo-de-papel-de-carta_124507-8280.jpg?w=2000');
+  /* background-image: url('https://img.freepik.com/vetores-gratis/ondulacao-da-pagina-ondulacao-realista-de-pagina-clara-em-branco-com-sombra-no-fundo-branco-ilustracao-simples-do-modelo-de-papel-de-carta_124507-8280.jpg?w=2000'); */
 }
 
 a {
@@ -26,21 +26,20 @@ a {
   display: flex;
   justify-content: center;
 }
-
+/* 
 .container {
-  width: 73%;
-  /* background-color: #143D59; */
-  margin: 0 auto;
+  width: 100%;
+  background-color: #143D59;
+  margin: -5px auto 40px;
 }
 
 .single {
-  padding: 5px;
   color: #FFF;
   margin: 0 auto;
-  height: 20vh;
 }
 
 .single img {
   width: 64vw;
   height: 50vh;
-}
+  margin-bottom: -5px;
+} */
