@@ -8,5 +8,8 @@ export const dataText = {
 	WHATISACELL: 'O que é uma célula',
 	BYSHEPERD: 'By Pastor Aluízio Silva',
 	WORDSSHEPERD: 'Palavras Poderosas dos nossos pastores',
-	LASTNEWS: 'Fique atento às nossas novidades'
+	LASTNEWS: 'Fique atento às nossas novidades',
+	MEMBER: 'Obrigado por ser membro da nossa célula',
+	VISITOR: 'Venha fazer parte da nossa célula',
+	VERYIMPORTANT: 'Você é muito importante para nós',
 }

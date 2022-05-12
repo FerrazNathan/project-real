@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import styles from '../../styles/Home.module.css'
 import CardCell from '../components/CardCell'
-import BoxCard from '../components/BoxCard'
+import BoxCardVideo from '../components/BoxCardVideo'
 import BoxCardNews from '../components/BoxCardNews'
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
 			<Header />
 			<Sliders settings={settings} />
 			<CardCell />
-			<BoxCard />
+			<BoxCardVideo />
 			<BoxCardNews />
 			<Footer />
 		</div>

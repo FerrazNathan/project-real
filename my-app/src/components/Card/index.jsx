@@ -2,7 +2,7 @@
 import React from 'react'
 import * as S from './styles'
 
-export default function Card({ video, text, width }) {
+export default function CardVideo({ video, text, width }) {
 	return (
 		<S.Container>
 			<S.Header>

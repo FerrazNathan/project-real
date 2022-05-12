@@ -3,6 +3,8 @@ import * as S from './styles'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Banner from '../../components/Banner'
+import BannerWords from '../../components/BannerWords'
+import { dataText } from '../../common/constants/dataText'
 
 
 export default function Members() {
@@ -18,12 +20,20 @@ export default function Members() {
 	return (
 		<>
 			<Header />
+			<S.ContentBanner>
+				<S.Banner>
+					<Banner img='https://i0.wp.com/iamanovercomer.org/cotestluc/wp-content/uploads/2014/01/cell_groups.jpg?w=840' />
+				</S.Banner>
+			</S.ContentBanner>
 			<S.Container>
-				<Banner img='https://i0.wp.com/iamanovercomer.org/cotestluc/wp-content/uploads/2014/01/cell_groups.jpg?w=840' />
 				{member ? (
-					<h1>Obrigado por ser membro da célula</h1>
+					<S.BoxText>
+						<BannerWords title={dataText.MEMBER} text={dataText.VERYIMPORTANT}/>						
+					</S.BoxText>
 				) : (
-					<h1>Venha fazer parte da nossa célula</h1>
+					<S.BoxText>
+						<BannerWords title={dataText.VISITOR} text={dataText.VERYIMPORTANT}/>	
+					</S.BoxText>
 				)
 				}
 			</S.Container>
