@@ -7,7 +7,7 @@ import CardNews from '../CardNews'
 export default function BoxCardNews() {
 	return (
 		<>
-			<BannerWords text={dataText.LASTNEWS}/>
+			<BannerWords title={dataText.LASTNEWS}/>
 			<S.Card>
 				<CardNews
 					title='Célula'
