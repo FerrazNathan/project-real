@@ -21,10 +21,13 @@ export default function Header() {
 					<li onClick={() => redirect('/ourCell')}>Nossa célula</li>
 					<li onClick={() => redirect('/contacts')}>Contatos</li>
 				</ul>
-				<S.Icon>					
+				<S.Icon>
 					{/* <p><GoSignOut /></p> */}
 				</S.Icon>
 			</S.ContentHeader>
+			<S.Button onClick={() => redirect('/login')}>
+				Sair
+			</S.Button>
 		</S.Container>
 	)
 }
