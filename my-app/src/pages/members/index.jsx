@@ -19,13 +19,13 @@ export default function Members() {
 		<>
 			<Header />
 			<S.Container>
+				<Banner img='https://i0.wp.com/iamanovercomer.org/cotestluc/wp-content/uploads/2014/01/cell_groups.jpg?w=840' />
 				{member ? (
 					<h1>Obrigado por ser membro da célula</h1>
 				) : (
 					<h1>Venha fazer parte da nossa célula</h1>
 				)
 				}
-				<Banner img='https://i0.wp.com/iamanovercomer.org/cotestluc/wp-content/uploads/2014/01/cell_groups.jpg?w=840' />
 			</S.Container>
 			<Footer />
 		</>
