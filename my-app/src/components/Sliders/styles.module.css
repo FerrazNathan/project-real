@@ -1,24 +1,21 @@
-
-.swiperSlide {
-  display: flex;
-  justify-content: center;
-}
-
 .container {
   width: 100%;
-  background-color: #143D59;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   margin: -5px auto 40px;
 }
 
+.container ::after{
+  color: #282c34;
+}
+
 .single {
-  /* padding: 5px; */
   color: #FFF;
   margin: 0 auto;
-  /* height: 19vh; */
 }
 
 .single img {
   width: 64vw;
   height: 50vh;
   margin-bottom: -5px;
+  cursor: pointer;
 }

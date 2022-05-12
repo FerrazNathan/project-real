@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
   width: 100%;
   background-color: #282c34;
+  position: relative;
 `
 
 export const ContentHeader = styled.div`
@@ -26,9 +27,21 @@ export const ContentHeader = styled.div`
     & :hover{
     color: #FFF;
     }
-  }
-  
+  }  
 `
+
+export const Button = styled.button`
+  border: none;
+  background-color: #282c34;
+  color: #F0D882;
+  cursor: pointer;
+  margin-left: 98%;
+  margin-top: -20px;
+  position: absolute;
+  right: 5px;
+  top: 85%;
+`
+
 export const Text = styled.h1`
   & h1{
   text-align: center;

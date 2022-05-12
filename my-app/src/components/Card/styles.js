@@ -3,6 +3,8 @@ import styled from 'styled-components'
 export const Container = styled.div`
   margin-bottom: 10px;
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
+  background-color: #282c34;
+  border-radius: 5px;
 `
 
 export const Header = styled.div`
@@ -22,5 +24,4 @@ export const Header = styled.div`
 
 export const Content = styled.div`
   border-radius: 0 0 5px 5px;
-  
 `
