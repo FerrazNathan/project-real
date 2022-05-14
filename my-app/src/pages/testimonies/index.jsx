@@ -7,7 +7,7 @@ export default function Testimonies() {
 		<div>
 			<Header />
 			<h1>Página de Testemunhos</h1>
-			<Banner img='https://thumbor.guiame.com.br/unsafe/840x500/http://media.guiame.com.br/archives/2019/10/24/4085184020-jovens-em-igreja.jpg' />
+			<Banner img='./testemunho.jpg' />
 			<Footer />
 		</div>
 	)

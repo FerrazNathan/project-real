@@ -13,16 +13,16 @@ import { redirect } from '../../utils'
 export default function Sliders({ settings, children }) {
 
 	return (
-		<Swiper className={styles.container}
+		<Swiper className={styles.content}
 			modules=
 				{[Navigation, Pagination, A11y, Autoplay]}
 			{...settings}
 		>
 			{children}
-			<S.Container>
+			<S.Container className={styles.container}>
 				<SwiperSlide className={styles.single}>
 					<a onClick={() => redirect('/members')}>
-						<img src='https://i0.wp.com/iamanovercomer.org/cotestluc/wp-content/uploads/2014/01/cell_groups.jpg?w=840' />
+						<img src='./members.jpeg' />
 					</a>
 				</SwiperSlide>
 				<SwiperSlide className={styles.single}>
@@ -37,7 +37,7 @@ export default function Sliders({ settings, children }) {
 				</SwiperSlide>
 				<SwiperSlide className={styles.single}>
 					<a onClick={() => redirect('/testimonies')}>
-						<img src='https://thumbor.guiame.com.br/unsafe/840x500/http://media.guiame.com.br/archives/2019/10/24/4085184020-jovens-em-igreja.jpg' />
+						<img src='./testemunho.jpg' />
 					</a>
 				</SwiperSlide>
 				<SwiperSlide className={styles.single}>

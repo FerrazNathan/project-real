@@ -24,7 +24,7 @@ export const Container = styled.div`
   }
   & p {
     margin-top: 0;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
   }
 `

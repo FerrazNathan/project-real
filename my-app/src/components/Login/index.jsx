@@ -8,14 +8,11 @@ import { redirect } from '../../utils'
 export default function Form() {
 
 	const [password, setPassword] = useState('')
-	const [error, setError] = useState(false)
-	
+	const [error, setError] = useState(false)	
 	const access = 'Celula08!'
 	const redirectPage = useRouter()
 
 	const submit = () => {
-		// event.preventDefault()
-
 		if (password === access) {
 			localStorage.setItem('member', 'true')
 			redirectPage.push('/home')
@@ -24,6 +21,10 @@ export default function Form() {
 			setError(true)
 		}
 	}
+	// const visitor = () => {
+	// 	localStorage.setItem('member', 'false')
+	// 	redirectPage.push('/home')
+	// }
 
 	return (
 		<>

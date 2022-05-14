@@ -1,21 +1,24 @@
+.content{
+  max-width: 1940px;
+  width: 100vw;
+  margin: 0 auto;
+}
+
 .container {
-  width: 100%;
+  max-width: 1940px;
+  width: 100vw;
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   margin: -5px auto 40px;
 }
 
-.container ::after{
+.content ::after{
   color: #282c34;
-}
-
-.single {
-  color: #FFF;
-  margin: 0 auto;
+  margin-right: 20px;
 }
 
 .single img {
-  width: 64vw;
+  width: 100vw;
   height: 50vh;
-  margin-bottom: -5px;
+  margin-bottom: -3px;
   cursor: pointer;
 }

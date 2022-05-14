@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
+  border-radius: 15px;
 `
 
 export const Header = styled.div`
@@ -16,7 +16,7 @@ export const Header = styled.div`
   color: #F0D882;
   /* border: 1px solid #F0D882; */
   padding: 5px;
-  border-radius: 5px 5px 0 0;
+  border-radius: 15px 15px 0 0;
   & h1 {
   font-size: 35px;
   font-weight: 200;
@@ -26,10 +26,8 @@ export const Header = styled.div`
 `
 
 export const ContentText = styled.div`
-  overflow: scroll;
   padding: 10px;
-  /* border: 1px solid #F0D882; */
-  border-radius: 0 0 5px 5px ;
-  height: 35vh;
+  border-radius: 0 0 15px 15px ;
+  height: auto;
   background-color: #E5EEF1;
 `
