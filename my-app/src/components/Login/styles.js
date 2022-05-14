@@ -31,11 +31,11 @@ export const Subtitle = styled.h2`
 `
 
 export const Input = styled.input`
-  width: 35%;
+  width: 30%;
   height: 20px;
   border-radius: 18px;
   border: 1px solid #a49186;
-  margin-left: 30%;
+  margin-left: 35%;
   margin-bottom: 30px;
   outline: 0;
   padding: 20px;
