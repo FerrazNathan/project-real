@@ -12,4 +12,10 @@ export const dataText = {
 	MEMBER: 'Obrigado por ser membro da nossa célula',
 	VISITOR: 'Venha fazer parte da nossa célula',
 	VERYIMPORTANT: 'Você é muito importante para nós',
+	NAME: 'Nome:',
+	BIRTHDATE: 'Nascimento:',
+	PHONE: 'Telefone:',
+	EMAIL: 'email:',
+	FUNCTION: 'Cargo:',
+	SINCE: 'Na célula desde:'
 }

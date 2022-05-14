@@ -42,7 +42,7 @@ export const Button = styled.button`
   top: 85%;
 `
 
-export const Text = styled.h1`
+export const Text = styled.div`
   & h1{
   text-align: center;
   font-family: 'Great Vibes', cursive;
@@ -51,7 +51,6 @@ export const Text = styled.h1`
   margin-bottom: -15px;
   margin-top: 0;
   font-size: 60px;
-  margin-top: -20px;
 }
   & h2{
     font-size: 35px;

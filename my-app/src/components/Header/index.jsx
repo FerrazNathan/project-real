@@ -1,10 +1,22 @@
 import React from 'react'
+import { useRouter } from 'next/router'
 import * as S from './styles'
 import { redirect } from '../../utils'
 import { dataText } from '../../common/constants/dataText'
-// import { GoSignOut } from 'react-icons/go'
+import { FaSignOutAlt } from 'react-icons/fa'
 
 export default function Header() {
+
+	const redirectPage = useRouter()
+
+	const clearing = () => {
+		if (typeof window !== 'undefined') {
+			localStorage.removeItem('member')
+			redirectPage.push('/login')
+		}
+	}
+
+
 	return (
 		<S.Container>
 			<S.ContentHeader>
@@ -22,11 +34,10 @@ export default function Header() {
 					<li onClick={() => redirect('/contacts')}>Contatos</li>
 				</ul>
 				<S.Icon>
-					{/* <p><GoSignOut /></p> */}
 				</S.Icon>
 			</S.ContentHeader>
-			<S.Button onClick={() => redirect('/login')}>
-				Sair
+			<S.Button>
+				<FaSignOutAlt onClick={() => clearing()}/>
 			</S.Button>
 		</S.Container>
 	)
