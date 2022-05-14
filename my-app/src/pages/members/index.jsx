@@ -17,6 +17,9 @@ export default function Members() {
 			setMember(localStorage.getItem('member'))
 		}
 	}, [])
+	
+	const url = window.location.href
+	const spliting = url.split('=')[1]
 
 	return (
 		<>
@@ -25,7 +28,7 @@ export default function Members() {
 				<Banner img='./members.jpeg' />
 			</S.Banner>
 			{member ? (
-				<BannerWords title={dataText.MEMBER} text={dataText.VERYIMPORTANT} />
+				<BannerWords title={`Olá ${spliting}, ${dataText.MEMBER}`} text={dataText.VERYIMPORTANT} />
 			) : (
 				<BannerWords title={dataText.VISITOR} text={dataText.VERYIMPORTANT} />
 			)}
