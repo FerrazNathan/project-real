@@ -10,13 +10,8 @@ export const Container = styled.section`
   justify-content: center;  
 `
 
-export const ContentBanner = styled.section`
-  width: 100%;
-  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-`
-
 export const Banner = styled.div`
-  max-width: 1240px;
+  max-width: 1940px;
   width: 100%;
   margin: 0 auto;
   & img{
@@ -27,5 +22,7 @@ export const Banner = styled.div`
 `
 
 export const BoxText = styled.div`
-
+  width: 100%;
+  background-color: #282c34;
+  margin-top: 40px;
 `

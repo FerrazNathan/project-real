@@ -4,6 +4,7 @@ export const Container = styled.footer`
   width: 100%;
   background-color: #282c34;
   position: relative;
+  padding-bottom: 10px;
 `
 
 export const ContentFooter = styled.div`
@@ -30,7 +31,7 @@ export const ContentFooter = styled.div`
   }
   
 `
-export const Text = styled.h1`
+export const Text = styled.div`
   & h1{
     text-align: center;
     font-family: 'Great Vibes', cursive;
