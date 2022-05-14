@@ -70,7 +70,7 @@ export const membersCell = [
 		since: '2021',
 	},
 	{
-		image: './masculino.jpg',
+		image: './caio.jpeg',
 		title: 'Caio',
 		name: 'Caio Silva Barbara',
 		phone: '(11) 97227-6256',
