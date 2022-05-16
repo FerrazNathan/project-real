@@ -10,17 +10,21 @@ import CardMember from '../../components/CardMember'
 
 export default function Members() {
 
-	const [member, setMember] = useState()
+	const [member, setMember] = useState('')
+	const [name, setName] = useState('')
 
 	useEffect(() => {
 		if (typeof window !== 'undefined') {
 			setMember(localStorage.getItem('member'))
 		}
 	}, [])
-	
-	const url = window.location.href
-	const spliting = url.split('=')[1]
 
+	useEffect(() => {
+		if (typeof window !== 'undefined') {
+			setName(localStorage.getItem('name'))
+		}
+	}, [])
+	
 	return (
 		<>
 			<Header />
@@ -28,7 +32,7 @@ export default function Members() {
 				<Banner img='./members.jpeg' />
 			</S.Banner>
 			{member ? (
-				<BannerWords title={`Olá ${spliting}, ${dataText.MEMBER}`} text={dataText.VERYIMPORTANT} />
+				<BannerWords title={`Olá ${name}, ${dataText.MEMBER}`} text={dataText.VERYIMPORTANT} />
 			) : (
 				<BannerWords title={dataText.VISITOR} text={dataText.VERYIMPORTANT} />
 			)}
@@ -37,3 +41,5 @@ export default function Members() {
 		</>
 	)
 }
+
+//

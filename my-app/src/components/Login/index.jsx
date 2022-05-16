@@ -6,7 +6,7 @@ import { dataText } from '../../common/constants/dataText'
 import { redirect } from '../../utils'
 
 export default function Form() {
-	const [name, setName] = useState()
+	const [name, setName] = useState('')
 	const [password, setPassword] = useState('')
 	const [error, setError] = useState(false)	
 	const access = 'Celula08!'
@@ -15,13 +15,14 @@ export default function Form() {
 	const submit = () => {
 		if (password === access) {
 			localStorage.setItem('member', 'true')
-			redirectPage.push(`/members?name=${name}`)
+			localStorage.setItem('name', name)
+			redirectPage.push('./home')
 		}
 		else {
 			setError(true)
 		}
 	}
-
+	
 	return (
 		<>
 			{error && <Error />}
@@ -29,7 +30,7 @@ export default function Form() {
 				<S.Title>{dataText.TITLE}</S.Title>
 				<S.Subtitle>{dataText.SUBTITLE}</S.Subtitle>
 				<S.Input
-					type="search"
+					type="text"
 					placeholder="Digite seu nome"
 					value={name}
 					onChange={(event) => setName(event.target.value)}
