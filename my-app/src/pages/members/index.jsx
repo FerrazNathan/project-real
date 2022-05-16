@@ -24,9 +24,6 @@ export default function Members() {
 			setName(localStorage.getItem('name'))
 		}
 	}, [])
-
-
-	console.log(name)
 	
 	return (
 		<>
