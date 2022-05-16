@@ -21,8 +21,6 @@ export default function Home() {
 			clickable: true,
 		},
 	}
-
-
 	
 	return (
 		<div className={styles.container}>
