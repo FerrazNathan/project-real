@@ -14,10 +14,11 @@ export const ContentHeader = styled.div`
   background-color: #282c34;
   color: #F0D882;
   padding: 15px;
+  
   & ul {
     margin-top: 35px;
     margin-right: 3%;
-    margin-bottom: 0;
+    margin-bottom: -10px;
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -48,7 +49,7 @@ export const Text = styled.div`
   font-family: 'Great Vibes', cursive;
   color: #F0D882;
   font-weight: 400;
-  margin-bottom: -15px;
+  margin-bottom: -25px;
   margin-top: 0;
   font-size: 60px;
 }
@@ -57,7 +58,8 @@ export const Text = styled.div`
     text-align: center;
     font-family: 'Great Vibes', cursive;
     color: #F0D882;
-    font-weight: 400;
+    font-weight: 300;
+    margin-bottom: -15px;
   }
 `
 
