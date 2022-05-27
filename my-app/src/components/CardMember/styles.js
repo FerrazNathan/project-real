@@ -34,8 +34,8 @@ export const BoxHeader = styled.div`
     margin: 30px;
     width: 200px;
     font-family: 'Great Vibes', cursive;
-    color: #F0D882;
-    font-weight: 400;
+    color: #fff9c7;
+    font-weight: 500;
     font-size: 40px;
   }
 `
@@ -43,7 +43,6 @@ export const BoxHeader = styled.div`
 export const BoxText = styled.div`
   & p {
     font-size: 20px;
-    text-align: start;
     margin: 10px 15px;
     font-family: 'Nunito Sans', sans-serif;
     color: #282c34;

@@ -13,18 +13,17 @@ export const Container = styled.section`
 export const Title = styled.h1`
   color: linear-gradient(#CDA83D 50%, #F0D882);
   font-family: 'Great Vibes', cursive;
-  color: #F0D882;
   font-size: 80px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 0;
-`
+  color: #F0D882;
+  `
 
 export const Subtitle = styled.h2`
-  color: linear-gradient(#CDA83D, #F0D882);
-  color: linear-gradient(#CDA83D 50%, #F0D882);
+  /* color: #fff9c7; */
+  color: #fce799;
   font-family: 'Great Vibes', cursive;
-  color: #F0D882;
   font-size: 60px;
   font-weight: 400;
   text-align: center;
