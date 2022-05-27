@@ -41,7 +41,7 @@ export default function Quiz() {
 		}
 	}
 
-	//switch case com a conclusão final do quiz
+	// switch case com a conclusão final do quiz
 	const conclusion = () => {
 		switch (answer) {
 		case 0: return 'Infelizmente você não acertou nenhuma questão'
@@ -66,18 +66,15 @@ export default function Quiz() {
 				<>
 					<h1>Responda a Questão N°1</h1>
 					<p>Quem é o Líder da célula?</p>
+					{/* onChange para pegar o valor digitado */}
 					<select onChange={(event) => { setLeader(event.target.value) }}>
 						<option>Selecione</option>
 						<option value='felipe'>Felipe</option>
 						<option value='nathan'>Nathan</option>
 						<option value='prisciane'>Prisciane</option>
 						<option value='vitao'>Vitão</option>
-
-						{/* onChange para pegar o valor digitado */}
-						{/* <input type='search'  /> */}
-
-						{/* onClick para avançar para a próxima questão */}
 					</select>
+					{/* onClick para avançar para a próxima questão */}
 					<button onClick={() => results(questionOne)}>Resposta</button>
 				</>
 			}
@@ -214,3 +211,4 @@ export default function Quiz() {
 		</div>
 	)
 }
+{/* <button onClick={() => window.location.href='`/results?leader={leader}&birthDateCell={birthDateCell}&firstCellNumber={firstCellNumber}&cellLocation={cellLocation}&dayCell={dayCell}&leaderArrived={leaderArrived}&shepherdName={shepherdName}&communion={communion}&disciplerName={disciplerName}&howManyMembers={howManyMembers}`'}>Veja o Resultado do Quiz</button> */ }
