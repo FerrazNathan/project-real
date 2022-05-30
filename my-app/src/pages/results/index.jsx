@@ -1,7 +1,8 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import BannerWords from '../../components/BannerWords'
-// import * as S from './styles'
+import {dataText} from '../../common/constants/dataText'
+import * as S from './styles'
 import {
 	leader,
 	birthDateCell,
@@ -16,36 +17,56 @@ import {
 } from '../../utils'
 
 export default function OurCell() {
+	let params
+	if (typeof window !== 'undefined') {
+		params = new URLSearchParams(window.location.search)
+	}
 
-	//função da query string
-	const params = new URLSearchParams(window.location.search)
 	let urlParams = undefined
-	params.forEach((value, key) => {
+	params && params.forEach((value, key) => {
 		urlParams = Object.assign({}, urlParams, {
 
 			[key]: value.toString()
 		})
 	})
+	// console.log('o que chega aqui =>', urlParams.answer)
 
-	console.log('o que chega aqui =>', urlParams)
+	const conclusion = (response) => {
 
-
+		switch (response) {
+		case '0': return 'Infelizmente você não acertou nenhuma questão'
+		case '1': return 'Que pena, Você acertou apenas 1 questão'
+		case '2': return 'Que pena, Você acertou apenas 2 questões'
+		case '3': return 'Que pena, Você acertou apenas 3 questões'
+		case '4': return 'Interessante, Você acertou 4 questões'
+		case '5': return 'Interessante, Você acertou 5 questões'
+		case '6': return 'Legal, Você acertou 6 questões'
+		case '7': return 'Você conhece bem a célula, acertou 7 questões'
+		case '8': return 'Parabéns Você conhece muito bem a célula, acertou 8 questões'
+		case '9': return 'Parabéns, Você foi quase perfeito, acertou 9 questões'
+		case '10': return 'Parabéns Você conhece tudo sobre a nossa célula, acertou todas as questões'
+		default: return 'Você não conseguiu responder as perguntas'
+		}
+	}
 
 	return (
-		<div>
+		<>
 			<Header />
 			<BannerWords title='Essas foram as suas respostas' />
-			<h1>Quem é o líder da célula? {urlParams.leader} {leader()}</h1>
-			<h1>Em que ano nasceu essa célula? {urlParams.birthDateCell} {birthDateCell()}</h1>
-			<h1>Qual o número da nossa primeira célula? {urlParams.firstCellNumber} {firstCellNumber()}</h1>
-			<h1>Onde normalmente fazemos a reunião da célula? {urlParams.cellLocation} {cellLocation()}</h1>
-			<h1>Qual é o dia que normalmente fazemos a reunião da célula? {urlParams.dayCell} {dayCell()}</h1>
-			<h1>Qual é a comunhão que mais fazemos? {urlParams.communion} {communion()}</h1>
-			<h1>Em que ano o nosso líder chegou na igreja? {urlParams.leaderArrived} {leaderArrived()}</h1>
-			<h1>Qual é o nome do nosso pastor de jovens? {urlParams.shepherdName} {shepherdName()}</h1>
-			<h1>Qual é o nome do(a) nosso(a) discipulador(a)? {urlParams.disciplerName} {disciplerName()}</h1>
-			<h1>Quantos membros da célula são frequentes nos cultos? {urlParams.howManyMembers} {howManyMembers()}</h1>
+			<S.ListQuestions>
+				<h1>{conclusion(urlParams?.answer)}</h1>
+				<S.TextMain>{dataText.LEADER} <S.Span>{urlParams?.leader}</S.Span> {leader(urlParams)}</S.TextMain>
+				<S.TextMain>{dataText.BIRTHDATECELL} <S.Span>{urlParams?.birthDateCell}</S.Span> {birthDateCell(urlParams)}</S.TextMain>
+				<S.TextMain>{dataText.FIRSTCELLNUMBER} <S.Span>{urlParams?.firstCellNumber}</S.Span> {firstCellNumber(urlParams)}</S.TextMain>
+				<S.TextMain>{dataText.CELLLOCATION} <S.Span>{urlParams?.cellLocation} </S.Span> {cellLocation(urlParams)}</S.TextMain>
+				<S.TextMain>{dataText.DAYCELL} <S.Span>{urlParams?.dayCell}</S.Span> {dayCell(urlParams)}</S.TextMain>
+				<S.TextMain>{dataText.COMMUNION}  <S.Span>{urlParams?.communion}</S.Span>{communion(urlParams)}</S.TextMain>
+				<S.TextMain>{dataText.LEADERARRIVED} <S.Span>{urlParams?.leaderArrived}</S.Span>{leaderArrived(urlParams)}</S.TextMain>
+				<S.TextMain>{dataText.SHEPERDNAME} <S.Span>{urlParams?.shepherdName}</S.Span> {shepherdName(urlParams)}</S.TextMain>
+				<S.TextMain>{dataText.DISCIPLERNAME} <S.Span>{urlParams?.disciplerName} </S.Span>{disciplerName(urlParams)}</S.TextMain>
+				<S.TextMain>{dataText.HOWMANYMEMBERS} <S.Span>{urlParams?.howManyMembers}</S.Span> {howManyMembers(urlParams)}</S.TextMain>
+			</S.ListQuestions>
 			<Footer />
-		</div>
+		</>
 	)
 }
