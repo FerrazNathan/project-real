@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Bannerwords from '../BannerWords'
 import * as S from './styles'
+import {dataText} from '../../common/constants/dataText'
 
 export default function Quiz() {
 
@@ -27,11 +28,11 @@ export default function Quiz() {
 	const questionOne = leader === 'felipe'
 	const questionTwo = birthDateCell === '2012'
 	const questionThree = firstCellNumber === '08'
-	const questionFour = cellLocation === 'cacula'
-	const questionFive = dayCell === 'sabado'
+	const questionFour = cellLocation === 'caçula'
+	const questionFive = dayCell === 'sábado'
 	const questionSix = communion === 'salgados'
 	const questionSeven = leaderArrived === '2009'
-	const questionEight = shepherdName === 'regis'
+	const questionEight = shepherdName === 'régis'
 	const questionNine = disciplerName === 'elaine'
 	const questionTen = howManyMembers === '12'
 
@@ -42,24 +43,7 @@ export default function Quiz() {
 			setAnswer(answer + 1)
 		}
 	}
-
-	// switch case com a conclusão final do quiz
-	// const conclusion = () => {
-	// 	switch (answer) {
-	// 		case 0: return 'Infelizmente você não acertou nenhuma questão'
-	// 		case 1: return 'Que pena, Você acertou apenas 1 questão'
-	// 		case 2: return 'Que pena, Você acertou apenas 2 questões'
-	// 		case 3: return 'Que pena, Você acertou apenas 3 questões'
-	// 		case 4: return 'Interessante, Você acertou 4 questões'
-	// 		case 5: return 'Interessante, Você acertou 5 questões'
-	// 		case 6: return 'Legal, Você acertou 6 questões'
-	// 		case 7: return 'Você conhece bem a célula, acertou 7 questões'
-	// 		case 8: return 'Parabéns Você conhece muito bem a célula, acertou 8 questões'
-	// 		case 9: return 'Parabéns, Você foi quase perfeito, acertou 9 questões'
-	// 		case 10: return 'Parabéns Você conhece tudo sobre a nossa célula, acertou todas as questões'
-	// 		default: return 'Você não conseguiu responder as perguntas'
-	// 	}
-	// }
+	console.log('answer', answer)
 
 	return (
 		<>
@@ -69,14 +53,14 @@ export default function Quiz() {
 				{position === 0 &&
 					<S.ContentQuestion>
 						<h2>Responda a Questão N°1</h2>
-						<p>Quem é o Líder da célula?</p>
+						<p>{dataText.LEADER}</p>
 						{/* onChange para pegar o valor digitado */}
 						<S.Select onChange={(event) => { setLeader(event.target.value) }}>
 							<option>Selecione</option>
 							<option value='felipe'>Felipe</option>
 							<option value='nathan'>Nathan</option>
 							<option value='prisciane'>Prisciane</option>
-							<option value='vitao'>Vitão</option>
+							<option value='vitão'>Vitão</option>
 						</S.Select>
 						{/* onClick para avançar para a próxima questão */}
 						<button onClick={() => results(questionOne)}>Próxima</button>
@@ -85,7 +69,7 @@ export default function Quiz() {
 				{position === 1 &&
 					<S.ContentQuestion>
 						<h2>Responda a Questão n°2</h2>
-						<p>Em que ano nasceu essa célula?</p>
+						<p>{dataText.BIRTHDATECELL}</p>
 						<S.Select onChange={(event) => { setBirthDateCell(event.target.value) }} >
 							<option>Selecione</option>
 							<option value='2009'>2009</option>
@@ -99,7 +83,7 @@ export default function Quiz() {
 				{position === 2 &&
 					<S.ContentQuestion>
 						<h2>Responda a Questão n°3</h2>
-						<p>Qual o número da nossa primeira célula?</p>
+						<p>{dataText.FIRSTCELLNUMBER}</p>
 						<S.Select onChange={(event) => { setFirstCellNumber(event.target.value) }}>
 							<option>Selecione</option>
 							<option value='72'>72</option>
@@ -113,11 +97,11 @@ export default function Quiz() {
 				{position === 3 &&
 					<S.ContentQuestion>
 						<h2>Responda a Questão n°4</h2>
-						<p>Onde normalmente fazemos a reunião da célula?</p>
+						<p>{dataText.CELLLOCATION}</p>
 						<S.Select onChange={(event) => { setCellLocation(event.target.value) }}>
 							<option>Selecione</option>
 							<option value='santa luzia'>Santa Luzia</option>
-							<option value='cacula'>Caçula</option>
+							<option value='caçula'>Caçula</option>
 							<option value='igreja'>Igreja</option>
 							<option value='ouro fino'>Ouro Fino</option>
 						</S.Select>
@@ -127,13 +111,13 @@ export default function Quiz() {
 				{position === 4 &&
 					<S.ContentQuestion>
 						<h2>Responda a Questão n°5</h2>
-						<p>Qual é o dia que normalmente fazemos a reunião da célula?</p>
+						<p>{dataText.DAYCELL}</p>
 						<S.Select onChange={(event) => { setDayCell(event.target.value) }}>
 							<option>Selecione</option>
 							<option value='domingo'>Domingo</option>
-							<option value='sexta'>Sexta-feira</option>
-							<option value='sabado'>Sábado</option>
-							<option value='quarta'>Quarta-feira</option>
+							<option value='sexta-feira'>Sexta-feira</option>
+							<option value='sábado'>Sábado</option>
+							<option value='quarta-feira'>Quarta-feira</option>
 						</S.Select>
 						<button onClick={() => results(questionFive)}>Próxima</button>
 					</S.ContentQuestion>
@@ -141,11 +125,11 @@ export default function Quiz() {
 				{position === 5 &&
 					<S.ContentQuestion>
 						<h2>Responda a Questão n°6</h2>
-						<p>Qual é a comunhão que mais fazemos?</p>
+						<p>{dataText.COMMUNION}</p>
 						<S.Select onChange={(event) => { setCommunion(event.target.value) }}>
 							<option>Selecione</option>
 							<option value='salgados'>Salgados</option>
-							<option value='cachorro'>Cachorro Quente</option>
+							<option value='cachorro quente'>Cachorro Quente</option>
 							<option value='caldo'>Caldo</option>
 							<option value='pizza'>Pizza</option>
 						</S.Select>
@@ -155,7 +139,7 @@ export default function Quiz() {
 				{position === 6 &&
 					<S.ContentQuestion>
 						<h2>Responda a Questão n°7</h2>
-						<p>Em que ano o nosso líder chegou na igreja?</p>
+						<p>{dataText.LEADERARRIVED}</p>
 						<S.Select onChange={(event) => { setLeaderArrived(event.target.value) }}>
 							<option>Selecione</option>
 							<option value='2012'>2012</option>
@@ -169,12 +153,12 @@ export default function Quiz() {
 				{position === 7 &&
 					<S.ContentQuestion>
 						<h2>Responda a Questão n°8</h2>
-						<p>Qual é o nome do nosso pastor de jovens?</p>
+						<p>{dataText.SHEPERDNAME}</p>
 						<S.Select onChange={(event) => { setShepherdName(event.target.value) }} >
 							<option>Selecione</option>
 							<option value='lincon'>Lincon</option>
 							<option value='manoel'>Manoel</option>
-							<option value='regis'>Régis</option>
+							<option value='régis'>Régis</option>
 							<option value='gilberto'>Gilberto</option>
 						</S.Select>
 						<button onClick={() => results(questionEight)}>Próxima</button>
@@ -183,7 +167,7 @@ export default function Quiz() {
 				{position === 8 &&
 					<S.ContentQuestion>
 						<h2>Responda a Questão n°9</h2>
-						<label>Qual é o nome do(a) nosso(a) discipulador(a)?</label>
+						<label>{dataText.DISCIPLERNAME}</label>
 						<S.Select onChange={(event) => { setDisciplerName(event.target.value) }}>
 							<option>Selecione</option>
 							<option value="elaine">Elaine</option>
@@ -197,7 +181,7 @@ export default function Quiz() {
 				{position === 9 &&
 					<S.ContentQuestion>
 						<h2>Responda a Questão n°10</h2>
-						<p>Quantos membros da célula são frequentes nos cultos?</p>
+						<p>{dataText.HOWMANYMEMBERS}</p>
 						<S.Select onChange={(event) => { setHowManyMembers(event.target.value) }}>
 							<option>Selecione</option>
 							<option value='10'>10</option>
@@ -210,7 +194,7 @@ export default function Quiz() {
 				}
 				{/* renderização condicional para saber a sua avaliação do quiz */}
 				{position === 10 &&
-					<button onClick={() => window.location.href = `/results?leader=${leader}&birthDateCell=${birthDateCell}&firstCellNumber=${firstCellNumber}&cellLocation=${cellLocation}&dayCell=${dayCell}&leaderArrived=${leaderArrived}&shepherdName=${shepherdName}&communion=${communion}&disciplerName=${disciplerName}&howManyMembers=${howManyMembers}`}>Veja o Resultado do Quiz</button>
+					<button onClick={() => window.location.href = `/results?leader=${leader}&birthDateCell=${birthDateCell}&firstCellNumber=${firstCellNumber}&cellLocation=${cellLocation}&dayCell=${dayCell}&leaderArrived=${leaderArrived}&shepherdName=${shepherdName}&communion=${communion}&disciplerName=${disciplerName}&howManyMembers=${howManyMembers}&answer=${answer}`}>Veja o Resultado do Quiz</button>
 				}
 				{/* <h2>{conclusion()}</h2> */}
 			</S.Container>
@@ -218,3 +202,4 @@ export default function Quiz() {
 
 	)
 }
+//position=${position}&answer=${answer}&l

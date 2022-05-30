@@ -17,5 +17,15 @@ export const dataText = {
 	PHONE: 'Telefone:',
 	EMAIL: 'email:',
 	FUNCTION: 'Cargo:',
-	SINCE: 'Na célula desde:'
+	SINCE: 'Na célula desde:',
+	LEADER: 'Quem é o líder da célula? ',
+	BIRTHDATECELL: 'Em que ano nasceu essa célula?',
+	FIRSTCELLNUMBER: 'Qual o número da nossa primeira célula?',
+	CELLLOCATION: 'Onde normalmente fazemos a reunião da célula?',
+	DAYCELL: 'Qual é o dia que normalmente fazemos a reunião da célula?',
+	LEADERARRIVED: 'Em que ano o nosso líder chegou na igreja?',
+	SHEPERDNAME: 'Qual é o nome do nosso pastor de jovens?',
+	COMMUNION: 'Qual é a comunhão que mais fazemos?',
+	DISCIPLERNAME: 'Qual é o nome do(a) nosso(a) discipulador(a)?',
+	HOWMANYMEMBERS: 'Quantos membros da célula são frequentes nos cultos?'
 }

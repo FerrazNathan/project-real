@@ -7,7 +7,7 @@ export const clearing = () => {
 }
 
 export const leader = (urlParams) => {
-	if(urlParams.leader === 'felipe') {
+	if(urlParams?.leader === 'felipe') {
 		return(<img src='./icone-ok.png' alt='ícone de correto' />)
 	}
 	else {
@@ -16,7 +16,7 @@ export const leader = (urlParams) => {
 }
 
 export const birthDateCell = (urlParams) => {
-	if(urlParams.leader === '2012') {
+	if(urlParams?.birthDateCell === '2012') {
 		return(<img src='./icone-ok.png' alt='ícone de correto' />)
 	}
 	else {
@@ -25,7 +25,7 @@ export const birthDateCell = (urlParams) => {
 }
 
 export const firstCellNumber = (urlParams) => {
-	if(urlParams.leader === '08') {
+	if(urlParams?.firstCellNumber === '08') {
 		return(<img src='./icone-ok.png' alt='ícone de correto' />)
 	}
 	else {
@@ -34,7 +34,7 @@ export const firstCellNumber = (urlParams) => {
 }
 
 export const cellLocation = (urlParams) => {
-	if(urlParams.leader === 'cacula') {
+	if(urlParams?.cellLocation === 'caçula') {
 		return(<img src='./icone-ok.png' alt='ícone de correto' />)
 	}
 	else {
@@ -43,7 +43,7 @@ export const cellLocation = (urlParams) => {
 }
 
 export const dayCell = (urlParams) => {
-	if(urlParams.leader === 'sabado') {
+	if(urlParams?.dayCell === 'sábado') {
 		return(<img src='./icone-ok.png' alt='ícone de correto' />)
 	}
 	else {
@@ -52,7 +52,7 @@ export const dayCell = (urlParams) => {
 }
 
 export const leaderArrived = (urlParams) => {
-	if(urlParams.leader === '2009') {
+	if(urlParams?.leaderArrived === '2009') {
 		return(<img src='./icone-ok.png' alt='ícone de correto' />)
 	}
 	else {
@@ -61,7 +61,7 @@ export const leaderArrived = (urlParams) => {
 }
 
 export const shepherdName = (urlParams) => {
-	if(urlParams.leader === 'regis') {
+	if(urlParams?.shepherdName === 'régis') {
 		return(<img src='./icone-ok.png' alt='ícone de correto' />)
 	}
 	else {
@@ -70,7 +70,7 @@ export const shepherdName = (urlParams) => {
 }
 
 export const communion = (urlParams) => {
-	if(urlParams.leader === 'salgados') {
+	if(urlParams?.communion === 'salgados') {
 		return(<img src='./icone-ok.png' alt='ícone de correto' />)
 	}
 	else {
@@ -79,7 +79,7 @@ export const communion = (urlParams) => {
 }
 
 export const disciplerName = (urlParams) => {
-	if(urlParams.leader === 'elaine') {
+	if(urlParams?.disciplerName === 'elaine') {
 		return(<img src='./icone-ok.png' alt='ícone de correto' />)
 	}
 	else {
@@ -88,7 +88,7 @@ export const disciplerName = (urlParams) => {
 }
 
 export const howManyMembers = (urlParams) => {
-	if(urlParams.leader === '12') {
+	if(urlParams?.howManyMembers === '12') {
 		return(<img src='./icone-ok.png' alt='ícone de correto' />)
 	}
 	else {
