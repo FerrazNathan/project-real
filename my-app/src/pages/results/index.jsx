@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import BannerWords from '../../components/BannerWords'
@@ -15,8 +16,13 @@ import {
 	disciplerName,
 	howManyMembers
 } from '../../utils'
+import Banner from '../../components/Banner'
 
 export default function OurCell() {
+
+	const [name, setName] = useState('')
+
+
 	let params
 	if (typeof window !== 'undefined') {
 		params = new URLSearchParams(window.location.search)
@@ -29,7 +35,12 @@ export default function OurCell() {
 			[key]: value.toString()
 		})
 	})
-	// console.log('o que chega aqui =>', urlParams.answer)
+
+	useEffect(() => {
+		if (typeof window !== 'undefined') {
+			setName(localStorage.getItem('name'))
+		}
+	}, [])
 
 	const conclusion = (response) => {
 
@@ -52,9 +63,11 @@ export default function OurCell() {
 	return (
 		<>
 			<Header />
-			<BannerWords title='Essas foram as suas respostas' />
+			<S.Banner>
+				<Banner img='https://i1.wp.com/fmpsc.edu.br/wp-content/uploads/2018/12/saiu-o-resultado-banner-noticia-jpg.jpg' />
+			</S.Banner>
+			<BannerWords title='Essas foram as suas respostas' text={`${name} ${conclusion(urlParams?.answer)}`}/>
 			<S.ListQuestions>
-				<h1>{conclusion(urlParams?.answer)}</h1>
 				<S.TextMain>{dataText.LEADER} <S.Span>{urlParams?.leader}</S.Span> {leader(urlParams)}</S.TextMain>
 				<S.TextMain>{dataText.BIRTHDATECELL} <S.Span>{urlParams?.birthDateCell}</S.Span> {birthDateCell(urlParams)}</S.TextMain>
 				<S.TextMain>{dataText.FIRSTCELLNUMBER} <S.Span>{urlParams?.firstCellNumber}</S.Span> {firstCellNumber(urlParams)}</S.TextMain>
