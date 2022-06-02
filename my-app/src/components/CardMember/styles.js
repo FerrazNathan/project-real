@@ -48,3 +48,27 @@ export const BoxText = styled.div`
     color: #282c34;
   }
 `
+
+export const Register = styled.div`
+
+`
+
+export const Formulary = styled.form`
+
+`
+
+export const Input = styled.input`
+
+`
+
+export const Label = styled.label`
+
+`
+
+export const Select = styled.select`
+
+`
+
+export const Button = styled.button`
+  
+`
