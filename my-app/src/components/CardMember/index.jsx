@@ -140,7 +140,9 @@ export default function CardMember() {
 							<S.Button
 								onClick={(e) => {
 									e.preventDefault()
-									register()
+									name && phone && title && birthDate && office && email
+										? register()
+										: alert('preencha todos os campos')
 								}}>
 								Cadastrar
 							</S.Button>

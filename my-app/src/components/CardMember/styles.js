@@ -122,4 +122,5 @@ export const Button = styled.button`
   color: #fff9c7;
   text-transform: uppercase;
   font-weight: 600;
+  cursor: pointer
 `
