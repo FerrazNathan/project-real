@@ -4,7 +4,6 @@ import axios from 'axios'
 import * as S from './styles'
 import { dataText } from '../../common/constants/dataText'
 import InputMask from 'react-input-mask'
-import masculino from '../../../public/masculino.jpg'
 
 export default function CardMember() {
 
@@ -64,7 +63,7 @@ export default function CardMember() {
 				responseData && Object.values(responseData).map((members) => (
 					<S.Card key={members[1].name}>
 						<S.BoxHeader>
-							<img src={members[1].image ? (members[1].image) : (masculino)} alt="foto de perfil" />
+							<img src={members[1].image ? (members[1].image) : ('https://uploaddeimagens.com.br/images/003/891/238/original/masculino.jpg')} alt="foto de perfil" />
 							<h2>{members[1].title}</h2>
 						</S.BoxHeader>
 						<S.BoxText>
@@ -78,10 +77,12 @@ export default function CardMember() {
 					</S.Card>
 				))
 			}
-			<S.Register>
-				{member &&
-					<>
-						<BannerWords title='Registrar novos membros' />
+			{member &&
+				<>
+					<S.Banner>
+						<BannerWords title='Cadastrar novos membros' />
+					</S.Banner>
+					<S.Register>
 						<S.Formulary>
 							<S.Label>Apelido</S.Label>
 							<S.Input
@@ -95,13 +96,15 @@ export default function CardMember() {
 								required
 								onChange={(e) => setName(e.target.value)}
 							/>
-							<S.Label>Telefone</S.Label>
-							<InputMask
-								type='tel'
-								mask='(99) 99999-9999'
-								required
-								onChange={(e) => setPhone(e.target.value)}
-							/>
+							<S.InputMaskTel>
+								<S.Label>Telefone</S.Label>
+								<InputMask
+									type='tel'
+									mask='(99) 99999-9999'
+									required
+									onChange={(e) => setPhone(e.target.value)}
+								/>
+							</S.InputMaskTel>
 							<S.Label>Foto de perfil</S.Label>
 							<S.Input
 								type='text'
@@ -137,14 +140,16 @@ export default function CardMember() {
 							<S.Button
 								onClick={(e) => {
 									e.preventDefault()
-									register()
+									name && phone && title && birthDate && office && email
+										? register()
+										: alert('preencha todos os campos')
 								}}>
 								Cadastrar
 							</S.Button>
 						</S.Formulary>
-					</>
-				}
-			</S.Register>
+					</S.Register>
+				</>
+			}
 		</S.Container>
 	)
 }

@@ -194,12 +194,10 @@ export default function Quiz() {
 				}
 				{/* renderização condicional para saber a sua avaliação do quiz */}
 				{position === 10 &&
-					<button onClick={() => window.location.href = `/results?leader=${leader}&birthDateCell=${birthDateCell}&firstCellNumber=${firstCellNumber}&cellLocation=${cellLocation}&dayCell=${dayCell}&leaderArrived=${leaderArrived}&shepherdName=${shepherdName}&communion=${communion}&disciplerName=${disciplerName}&howManyMembers=${howManyMembers}&answer=${answer}`}>Veja o Resultado do Quiz</button>
+					<button style={{'width': '20%'}} onClick={() => window.location.href = `/results?leader=${leader}&birthDateCell=${birthDateCell}&firstCellNumber=${firstCellNumber}&cellLocation=${cellLocation}&dayCell=${dayCell}&leaderArrived=${leaderArrived}&shepherdName=${shepherdName}&communion=${communion}&disciplerName=${disciplerName}&howManyMembers=${howManyMembers}&answer=${answer}`}>Veja o Resultado do Quiz</button>
 				}
-				{/* <h2>{conclusion()}</h2> */}
 			</S.Container>
 		</>
 
 	)
 }
-//position=${position}&answer=${answer}&l

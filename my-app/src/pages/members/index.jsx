@@ -6,6 +6,8 @@ import Banner from '../../components/Banner'
 import BannerWords from '../../components/BannerWords'
 import { dataText } from '../../common/constants/dataText'
 import CardMember from '../../components/CardMember'
+// import Search from '../../components/Search'
+import Filter from '../../components/Filter'
 
 
 export default function Members() {
@@ -31,6 +33,7 @@ export default function Members() {
 			<S.Banner>
 				<Banner img='./members.jpeg' />
 			</S.Banner>
+			<Filter />
 			{member ? (
 				<BannerWords title={`Olá ${name}, ${dataText.MEMBER}`} text={dataText.VERYIMPORTANT} />
 			) : (
