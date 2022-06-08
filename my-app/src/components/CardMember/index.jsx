@@ -75,7 +75,7 @@ export default function CardMember() {
 
 						if (search === '') {
 							return value
-						} else if (value[1].name.toLowerCase().includes(search.toLowerCase())) {
+						} else if (value[1].name.toLowerCase().includes(search.toLowerCase()) || (value[1].title.toLowerCase().includes(search.toLowerCase())))  {
 							return value
 						}
 					}).map((members) => (

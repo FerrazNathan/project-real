@@ -12,7 +12,7 @@ export const ContentHeader = styled.div`
   height: 15%;
   margin: 0 auto;
   background-color: #282c34;
-  color: #F0D882;
+  color: #fce799;
   padding: 15px;
   
   & ul {
@@ -47,7 +47,7 @@ export const Text = styled.div`
   & h1{
   text-align: center;
   font-family: 'Great Vibes', cursive;
-  color: #F0D882;
+  color: #fce799;
   font-weight: 400;
   margin-bottom: -25px;
   margin-top: 0;
@@ -57,7 +57,7 @@ export const Text = styled.div`
     font-size: 35px;
     text-align: center;
     font-family: 'Great Vibes', cursive;
-    color: #F0D882;
+    color: #fce799;
     font-weight: 300;
     margin-bottom: -15px;
   }
