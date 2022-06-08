@@ -1,5 +1,25 @@
 import styled from 'styled-components'
 
+export const ContentSearch = styled.div`
+  width: 100%;
+  max-width: 550px;
+  margin: 20px auto;
+`
+
+export const InputSearch = styled.input`
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 0;
+  box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
+  outline: 0;
+  cursor: pointer;
+  &:focus{
+    background-color: #e8f0fe;
+  }
+`
+
 export const Container = styled.div`
   max-width: 1320px;
   width: 100%;
@@ -74,6 +94,7 @@ export const Input = styled.input`
   margin: 10px 0;
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
   outline: 0;
+  cursor: pointer;
   &:focus{
     background-color: #e8f0fe;
   }
