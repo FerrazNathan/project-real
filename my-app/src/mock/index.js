@@ -18,185 +18,130 @@ export const explicationCell9 = 'Esta visão, apesar de ser revolucionária, nã
 
 export const explicationCell10 = 'Não havia nenhum prédio especial. No entanto, aquele foi o tempo em que a Igreja mais cresceu em número e na vida espiritual.¹ Na verdade, esses são os dois objetivos básicos da igreja: crescimento em número e crescimento em fé e serviço. E os prédios não ajudam em nada a atingirmos isso. Não sou contra o uso de prédios como lugares para a reunião da Igreja. Creio que eles têm muitas lições a nos ensinar. Prédios falam de imobilidade O mover de Deus diz: Ide, mas nossos prédios nos dizem: Fiquem. O mover de Deus diz para buscarmos os perdidos, mas os prédios nos dizem: deixe que eles venham até nós.² Uma igreja em células é um tabernáculo ambulante. É sempre móvel, é uma peregrina. Nossa identidade não está associada a prédios. Prédios possuem uma utilidade meramente funcional, e não existencial.  Prédios falam de inflexibilidade Faça você mesmo um teste. Vá a uma igreja para a qual o prédio seja a própria identidade dessa comunidade. Avalie o grau de abertura para mudanças no meio deles. Pode ter certeza: o resultado é zero. O prédio determina o tipo de igreja que nele se reune. Tudo fica em função do espaço disponível. Mas a pior coisa a respeito da falta de flexibilidade é a estagnação. Entra ano e sai ano e aquela igreja é a mesma. Sabe por quê? Porque ela e o prédio se confundem. Os prédios mudam pouco, principalmente quando são caros e magníficos. Na antiguidade, os judeus guardavam vinho em odres feitos de couro de ovelha. Esses odres precisavam ser untados, frequentemente, por fora para não se enrijecerem e se partirem perdendo-se todo o vinho. Assim, a maior necessidade de um bom odre era ser flexível. Isso era necessário por causa da fermentação do vinho que emite gases e força a estrutura do odre. Essa ilustração é incrivelmente clara. Odres (estruturas) precisam ser flexíveis porque o vinho (Espírito Santo) é algo cheio de vida que produz movimentos e mudanças eventuais de volume. E uma boa maneira de torná-lo flexível é sempre mantê-lo cheio do óleo. Nós somos uma igreja flexível e aberta ao mover de Deus, justamente porque a nossa identidade está nas células.'
 
-export const membersCell = [
+
+
+export const wordMovies = [
 	{
-		image: './marcelo2.jpeg',
-		title: 'Marcelo',
-		name: 'Marcelo de Freitas Moraes',
-		phone: '(11) 94598-8406',
-		birthDate: '14/01/1992',
-		email: 'mamoressp@gmail.com',
-		function: 'Membro',
-		since: '2022',
+		video: 'https://www.youtube.com/embed/WaHQXmxjH8g',
+		text:'Como ser dirigido pelo Espírito Santo'
 	},
 	{
-		image: './karina.jpeg',
-		title: 'Karina',
-		name: 'Karina dos Santos Moraes',
-		phone: '(11) 94067-4881',
-		birthDate: '17/06/1996',
-		email: 'kadudaviheo@gmail.com',
-		function: 'Membro',
-		since: '2022',
+		video: 'https://www.youtube.com/embed/XeyRxb3jN3Q',
+		text:'Gaste os dias para viver o propósito de Deus'
 	},
 	{
-		image: './nathan.jpg',
-		title: 'Nathan',
-		name: 'Nathan Henrique Dias Ferraz',
-		phone: '(11) 94112-4111',
-		birthDate: '19/08/1987',
-		email: 'nathanferraz@hotmail.com',
-		function: 'Líder em treinamento',
-		since: '2020',
+		video: 'https://www.youtube.com/embed/5hrffbE9tpY',
+		text:'O drama da cruz'
 	},
 	{
-		image: './feminino.jpg',
-		title: 'Larissa',
-		name: 'Larissa Helen Amorim Nicácio',
-		phone: '(11) 97195-1681',
-		birthDate: '01/02/1994',
-		email: 'larissa-amorim@hotmail.com',
-		function: 'Membro',
-		since: '2021',
+		video: 'https://www.youtube.com/embed/2KQCN_4Q9EU',
+		text:'Paternidade para as naçõe'
 	},
 	{
-		image: './rafa.jpeg',
-		title: 'Rafael',
-		name: 'Rafael Amorim Nicácio',
-		phone: '(11) 93148-0501',
-		birthDate: '22/05/1991',
-		email: 'rafanicacio06@gmail.com',
-		function: 'Membro',
-		since: '2021',
+		video: 'https://www.youtube.com/embed/vDSt-RuEgcQ',
+		text:'O Pai Pródigo'
 	},
 	{
-		image: './caio.jpeg',
-		title: 'Caio',
-		name: 'Caio Silva Barbara',
-		phone: '(11) 97227-6256',
-		birthDate: '13/03/1996',
-		email: 'caio.csbb@gmail.com',
-		function: 'Membro',
-		since: '2021',
+		video: 'https://www.youtube.com/embed/ChIPwSGlpJU',
+		text:'Graça sobrenatural'
 	},
 	{
-		image: './mary.jpeg',
-		title: 'Mariane',
-		name: 'Mariane Santos Silva Ferraz',
-		phone: '(11)99274-7681',
-		birthDate: '16/05/1992',
-		email: 'marianesilvaferraz@gmail.com',
-		function: 'Líder em treinamento',
-		since: '2020',
+		video: 'https://www.youtube.com/embed/HqdQ94g0TYQ',
+		text:'A fé que vence o medo'
 	},
 	{
-		image: './feminino.jpg',
-		title: 'Prisciane',
-		name: 'Prisciane Maria Marciano Paulino',
-		phone: '(11) 96057-5463',
-		birthDate: '27/09/1983',
-		email: 'priscianemaria46@gmail.com',
-		function: 'Líder',
-		since: '2015',
+		video: 'https://www.youtube.com/embed/HHqmGgBXhDI',
+		text:'A grande troca do calvário'
 	},
 	{
-		image: './evelyn.jpeg',
-		title: 'Evelyn',
-		name: 'Evelyn Ribeiro Soares França',
-		phone: '(11)99655-8892',
-		birthDate: '29/09/1995',
-		email: 'evelyn_soares@outlook.com',
-		function: 'Membro',
-		since: '2016',
+		video: 'https://www.youtube.com/embed/l6_qt2XkABg',
+		text:'Os sonhos nunca morrem'
 	},
 	{
-		image: './ismael.jpeg',
-		title: 'Ismael',
-		name: 'Ismael Rodrigues da Silva ',
-		phone: '(11) 97124-0713',
-		birthDate: '19/03/2006',
-		email: 'ismaelrodrigues6829@gmail.com',
-		function: 'Membro',
-		since: '2021',
+		video: 'https://www.youtube.com/embed/bHB2wM6XiKc',
+		text:'Removendo as cizas e Renovando o fogo'
 	},
 	{
-		image: './masculino.jpg',
-		title: 'Felipe',
-		name: 'Felipe Paulino Ribeiro',
-		phone: '(11) 99611-8269',
-		birthDate: '06/05/1991',
-		email: 'felipepaulino08@hotmail.com',
-		function: 'Líder',
-		since: '2009',
+		video: 'https://www.youtube.com/embed/i2CFS_2Vehg',
+		text:'Nós somos a carta'
 	},
 	{
-		image: './vini.jpeg',
-		title: 'Vini',
-		name: 'Vinícius Souza França',
-		phone: '(11) 99508-9859',
-		birthDate: '24/02/1995',
-		email: 'vi.ni.vinicius@hotmail.com',
-		function: 'Membro',
-		since: '2012',
+		video: 'https://www.youtube.com/embed/40ntVJ3eJ94',
+		text:'Sinais de que Jesus está em casa'
 	},
 	{
-		image: './feminino.jpg',
-		title: 'Grazi',
-		name: 'Grazielle Siqueira Sisti',
-		phone: '(11) 97199-6170',
-		birthDate: '04/10/2000',
-		email: 'grazihbraz@hotmail.com',
-		function: 'Membro',
-		since: '2021',
+		video: 'https://www.youtube.com/embed/JJiacaa7jcg',
+		text:'Espírito Santo o Deus esquecido'
 	},
 	{
-		image: './vitao.jpeg',
-		title: 'Vitão',
-		name: 'Victor Prudencio de Araujo',
-		phone: '(11) 95778-2150',
-		birthDate: '24/06/1994',
-		email: 'prudencio.vic@gmail.com',
-		function: 'Membro',
-		since: '2014',
+		video: 'https://www.youtube.com/embed/itnMyXJnK4w',
+		text:'Libertando-se do mal do esquecimento'
 	},
 	{
-		image: './deia.jpeg',
-		title: 'Déia',
-		name: 'Andréa dos Santos Silva',
-		phone: '(11) 97286-7906',
-		birthDate: '20/08/1977',
-		email: 'deiaarthur2021@gmail.com',
-		function: 'Membro',
-		since: '2020',
+		video: 'https://www.youtube.com/embed/8Dh4WHPRh74',
+		text:'Os 4 cavaleiros do Apocalipse'
 	},
 	{
-		image: './julia.jpeg',
-		title: 'Júlia',
-		name: 'Julia Silva Barbara',
-		phone: '(11) 97413-3015',
-		birthDate: '08/05/2006',
-		email: 'juliasilvabarbara31@gmail.com',
-		function: 'Membro',
-		since: '2020',
+		video: 'https://www.youtube.com/embed/hZdP8C2SNmE',
+		text:'A volta de Jesus, o ano milenar'
 	},
 	{
-		image: './bia.jpeg',
-		title: 'Bia',
-		name: 'Beatriz Barbara da Cruz',
-		phone: '(11) 9715-06990',
-		birthDate: '17/10/2000',
-		email: 'beasbarbara22@gmail.com',
-		function: 'Membro',
-		since: '2020',
+		video: 'https://www.youtube.com/embed/QX6d93ajTr4',
+		text:'A nova ordem mundial'
 	},
 	{
-		image: './masculino.jpg',
-		title: 'Ítalo',
-		name: 'Vinícius Italo da Cruz',
-		phone: '(11) 94287-3094',
-		birthDate: '13/08/1999',
-		email: 'viniciusitalodacruz@gmail.com',
-		function: 'Membro',
-		since: '2020',
-	}
+		video: 'https://www.youtube.com/embed/vj2A3A_m6JA',
+		text:'Justiça própria'
+	},
+]
+
+export const news = [
+	{
+		title: 'Casas de paz',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
+	{
+		title: 'Multiplicação',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
+	{
+		title: 'Célula',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
+	{
+		title: 'Agenda',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
+	{
+		title: 'Culto de jovens',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
+	{
+		title: 'Encontro',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
+	{
+		title: 'Convenção',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
+	{
+		title: 'Discipulado',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
+	{
+		title: 'Célula do amigo',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
+	{
+		title: 'Culto de ceia',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
+	{
+		title: 'Encontro de casais',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
+	{
+		title: 'Acampamento',
+		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+	},
 ]
