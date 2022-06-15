@@ -1,11 +1,11 @@
 .content{
-  max-width: 1940px;
+  max-width: 1910px;
   width: 100vw;
   margin: 0 auto;
 }
 
 .container {
-  max-width: 1940px;
+  max-width: 1920px;
   width: 100vw;
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   margin: -5px auto 40px;

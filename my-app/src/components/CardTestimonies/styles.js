@@ -1,26 +1,27 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  width: 66%;
+  width: 45%;
   margin: 20px auto 0;
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
-  height: 62vh;
-  background-color: #282c34;
+  height: 56vh;
+  background-color: red;
 `
 
 export const Header = styled.div`
-  background-color: #282c34;
+  background-color: red;
   text-align: center;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Nunito Sans', sans-serif;
   color: #F0D882;
   padding: 5px;
   border-radius: 15px 15px 0 0;
   & h1 {
-  font-size: 50px;
+  font-size: 28px;
   font-weight: 400;
   margin-bottom: 0;
   margin-top: 20px;
+  padding-bottom: 10px;
   }
   & p {
     margin-top: 0;

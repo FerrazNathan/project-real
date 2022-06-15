@@ -1,18 +1,6 @@
 import React from 'react'
 import * as S from './styles'
 import { dataText } from '../../common/constants/dataText'
-import {
-	explicationCell,
-	explicationCell2,
-	explicationCell3,
-	explicationCell4,
-	explicationCell5,
-	explicationCell6,
-	explicationCell7,
-	explicationCell8,
-	explicationCell9,
-	explicationCell10
-} from '../../mock/index'
 
 export default function CardCell() {
 	return (
@@ -22,16 +10,7 @@ export default function CardCell() {
 				<p>{dataText.BYSHEPERD}</p>
 			</S.Header>
 			<S.Content>
-				<p>{explicationCell}</p>
-				<p>{explicationCell2}</p>
-				<p>{explicationCell3}</p>
-				<p>{explicationCell4}</p>
-				<p>{explicationCell5}</p>
-				<p>{explicationCell6}</p>
-				<p>{explicationCell7}</p>
-				<p>{explicationCell8}</p>
-				<p>{explicationCell9}</p>
-				<p>{explicationCell10}</p>
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/fVmIRF-SIc8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 			</S.Content>
 		</S.Container>
 	)

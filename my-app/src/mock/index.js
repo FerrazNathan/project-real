@@ -145,3 +145,51 @@ export const news = [
 		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
 	},
 ]
+
+export const vision = [
+	{
+		text: 'O nosso encargo é edificar uma igreja de vencedores onde cada membro é um sacerdote e cada casa uma extensão da igreja, conquistando assim, a nossa geração para Cristo através das células que se multiplicam uma vez ao ano'
+	},
+	{
+		text: 'Somos mais família que organização Reconhecemos paternidade e autoridade entre nós espontaneamente e não por imposição denominacional'
+	},
+	{
+		text: 'Somos carismáticos Cremos, experimentamos e desfrutamos da ação viva do Espírito Santo nos dias de hoje. Seus dons, Suas manifestações e a experiência do Batismo no Espírito são realidades fundamentais para o êxito da Igreja'
+	},
+	{
+		text: 'Vivemos a prática das células Apesar das controvérsias e de toda terminologia confusa dos últimos anos, a maneira mais simples de envolver cada crente para o desempenho do seu sacerdócio está na Igreja em células. A Igreja de Atos não era templista e nem clerical; nós também não queremos ser'
+	}
+]
+
+export const target = [
+	{
+		text: 'Temos orado e jejuado pela multiplicação da célula, entendendo ser o momento exato para a multiplicação pois dessa forma podemos alcançar o maior número de pessoas possível e caminharmos junto rumo ao propósito de Deus para as nossas vidas'
+	}
+]
+
+export const testimoniesMovies = [
+	{
+		text: 'Testemunho Fernandinho',
+		video: 'https://www.youtube.com/embed/IMpEcBMkqhA'
+	},
+	{
+		text: 'Testemunho Rodolfo Abrantes',
+		video: 'https://www.youtube.com/embed/hRctjkAKOD0'
+	},
+	{
+		text: 'O dia que Jesus converteu minha lingua',
+		video: 'https://www.youtube.com/embed/quA8MetjuQs'
+	},
+	{
+		text: 'Testemunho de Jim Caviezel ',
+		video: 'https://www.youtube.com/embed/_uKxlH5vQOQ'
+	},
+	{
+		text: 'Deive Leonardo conta sua história com Jesus',
+		video: 'https://www.youtube.com/embed/9-FiOjmIOCY'
+	},
+	{
+		text: 'Está Pensando em Desistir?',
+		video: 'https://www.youtube.com/embed/4LyNk8TNgOs'
+	},
+]
