@@ -98,7 +98,11 @@ export const wordMovies = [
 export const news = [
 	{
 		title: 'Casas de paz',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+		src: 'https://s3-sa-east-1.amazonaws.com/inradar.media/uploads/page/None/page-88c658e3c8c307e6158ae2720417e3b5.jpg',
+		description: 'O objetivo é fazer a igreja crescer e cumprir a grande comissão deixada por Jesus: fazer discípulos!',
+		date: 'Toda quarta-feira',
+		local: 'Vila Suissa',
+		hour: '19:00 horas'
 	},
 	{
 		title: 'Multiplicação',
@@ -106,6 +110,7 @@ export const news = [
 	},
 	{
 		title: 'Célula',
+		src: 'https://s3-sa-east-1.amazonaws.com/inradar.media/uploads/page/None/page-88c658e3c8c307e6158ae2720417e3b5.jpg',
 		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
 	},
 	{

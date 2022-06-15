@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 30%;
+  width: 100%;
+  height: 100%;
   margin: 15px auto;
   display: flex;
   flex-direction: column;
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
-  border-radius: 15px;
+  border-radius: 16px;
 `
 
 export const Header = styled.div`
@@ -14,7 +15,6 @@ export const Header = styled.div`
   text-align: center;
   font-family: 'Great Vibes', cursive;
   color: #F0D882;
-  /* border: 1px solid #F0D882; */
   padding: 5px;
   border-radius: 15px 15px 0 0;
   & h1 {
@@ -25,9 +25,38 @@ export const Header = styled.div`
   }
 `
 
+export const ContentBody = styled.div`
+  display: flex;
+  justify-content: space-between;
+`
+
+export const ContentImage = styled.div`
+  & img{
+  width: 850px;
+  height: 400px;
+  border-radius: 15px 0 0 15px;
+  }
+`
+
 export const ContentText = styled.div`
-  padding: 10px;
-  border-radius: 0 0 15px 15px ;
+  padding: 0 25px;
   height: auto;
-  background-color: #E5EEF1;
+  font-size: 18px;
+  line-height: 1.3;
+  & h1{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 10px 0;
+  }
+`
+
+export const ContentInformation = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  & p{
+    margin-left: 10px;
+  }
 `

@@ -14,11 +14,19 @@ export default function Events() {
 			<S.Banner>
 				<Banner img='https://s3-sa-east-1.amazonaws.com/inradar.media/uploads/page/None/page-88c658e3c8c307e6158ae2720417e3b5.jpg' />
 			</S.Banner>
-			<BannerWords title='Fique por dentro do que rola entre nós'/>
+			<BannerWords title='Fique por dentro do que rola entre nós' />
 			<S.Container>
 				{news.map((item) => {
 					return (
-						<CardNews title={item.title} text={item.description} key={item} />
+						<CardNews
+							title={item.title}
+							text={item.description}
+							src={item.src}
+							key={item}
+							date={item.date}
+							local={item.local}
+							hour={item.hour}
+						/>
 					)
 				})}
 			</S.Container>
