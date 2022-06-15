@@ -1,8 +1,10 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Banner from '../../components/Banner'
-import BoxCardPageWords from '../../components/BoxCardPageWords'
+import CardVideo from '../../components/Card'
+import { wordMovies } from '../../mock'
 import * as S from './styles'
+import BannerWords from '../../components/BannerWords'
 
 export default function Words() {
 	return (
@@ -11,7 +13,14 @@ export default function Words() {
 			<S.Banner>
 				<Banner img='https://i.ytimg.com/vi/JzvI1Utww3U/maxresdefault.jpg' />
 			</S.Banner>
-			<BoxCardPageWords />			
+			<BannerWords title='Palavras poderosas dos nossos pastores' />
+			<S.Video>
+				{wordMovies.map((item) => {
+					return (
+						<CardVideo text={item.text} video={item.video} key={item} />
+					)
+				})}
+			</S.Video>
 			<Footer />
 		</div>
 	)

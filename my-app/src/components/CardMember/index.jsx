@@ -58,6 +58,15 @@ export default function CardMember() {
 		}
 	}
 
+	// FUNÇÃO QUE FAZ EXIBIR A LISTA DE MEMBROS EM ORDEM ALFABÉTICA
+	// responseData?.sort(function (a, b) {
+	// 	if (a[1].name < b[1].name) {
+	// 		return -1
+	// 	} else {
+	// 		return 1
+	// 	}
+	// })
+
 	return (
 		<>
 			<S.ContentSearch>
@@ -71,11 +80,11 @@ export default function CardMember() {
 			<S.Container>
 				{
 					responseData && Object.values(responseData).filter((value) => {
-						console.log('O que tem aqui?', value[1].title)
-
 						if (search === '') {
 							return value
-						} else if (value[1].name.toLowerCase().includes(search.toLowerCase()) || (value[1].title.toLowerCase().includes(search.toLowerCase())))  {
+						} else if (value[1].name.toLowerCase().includes(search.toLowerCase())
+							||
+							(value[1].title.toLowerCase().includes(search.toLowerCase()))) {
 							return value
 						}
 					}).map((members) => (
