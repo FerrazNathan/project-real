@@ -1,28 +1,19 @@
 import React, { useEffect, useState } from 'react'
-import BannerWords from '../BannerWords'
 import axios from 'axios'
 import * as S from './styles'
 import { dataText } from '../../common/constants/dataText'
-import InputMask from 'react-input-mask'
+import { redirect } from '../../utils'
+// import Register from '../Register'
 
 export default function CardMember() {
 
 	const [member, setMember] = useState()
 	const [responseData, setResponseData] = useState()
-	const [name, setName] = useState()
-	const [title, setTitle] = useState()
-	const [phone, setPhone] = useState()
-	const [image, setImage] = useState()
-	const [birthDate, setBirthDate] = useState()
-	const [email, setEmail] = useState()
-	const [office, setOffice] = useState()
-	const [since, setSince] = useState()
-	const [monitoring, setMonitoring] = useState()
-	const [search, setSearch] = useState('')
+	const [search, setSearch] = useState('')	
 
 	useEffect(() => {
 		if (typeof window !== 'undefined') {
-			setMember(localStorage.getItem('member'))
+			setMember(localStorage.getItem('name'))
 		}
 	}, [])
 
@@ -33,39 +24,16 @@ export default function CardMember() {
 			.then(function (response) {
 				setResponseData(Object.entries(response.data))
 			})
-	}, [])
-
-	const register = () => {
-		try {
-			axios.post(url, {
-				name: name,
-				title: title,
-				phone: phone,
-				image: image,
-				function: office,
-				email: email,
-				birthDate: birthDate,
-				since: since,
-			})
-				.then(function (response) {
-					setResponseData(Object.entries(response.data))
-					alert('Cadastro realizado com sucesso')
-					setMonitoring(!monitoring)
-				}).catch(() => {
-				})
-		} catch (e) {
-			throw new Error('Algo deu errado na conexão')
-		}
-	}
+	}, [])	
 
 	// FUNÇÃO QUE FAZ EXIBIR A LISTA DE MEMBROS EM ORDEM ALFABÉTICA
-	// responseData?.sort(function (a, b) {
-	// 	if (a[1].name < b[1].name) {
-	// 		return -1
-	// 	} else {
-	// 		return 1
-	// 	}
-	// })
+	responseData?.sort(function (a, b) {
+		if (a[1].name < b[1].name) {
+			return -1
+		} else {
+			return 1
+		}
+	})
 
 	return (
 		<>
@@ -76,6 +44,12 @@ export default function CardMember() {
 					placeholder='Pesquise por um membro da célula...'
 					onChange={(e) => setSearch(e.target.value)}
 				/>
+				{member === 'Felipe' && (
+					<S.Button onClick={() => redirect('/register')}>
+						Cadastrar novos membros
+					</S.Button>
+				)
+				}
 			</S.ContentSearch>
 			<S.Container>
 				{
@@ -91,91 +65,18 @@ export default function CardMember() {
 						<S.Card key={members[1].name}>
 							<S.BoxHeader>
 								<img src={members[1].image ? (members[1].image) : ('https://uploaddeimagens.com.br/images/003/891/238/original/masculino.jpg')} alt="foto de perfil" />
-								<h2>{members[1].title}</h2>
 							</S.BoxHeader>
 							<S.BoxText>
+								<h2>{members[1].title}</h2>
 								<p>{members[1].name}</p>
-								{member && <p>{dataText.PHONE} <span>{members[1].phone}</span></p>}
-								<p>{dataText.BIRTHDATE} <span>{members[1].birthDate}</span></p>
+								{member && <p>{dataText.PHONE} <span> {members[1].phone}</span></p>}
+								<p>{dataText.BIRTHDATE}<span> {members[1].birthDate}</span></p>
 								{member && <p>{members[1].email}</p>}
-								<p>{dataText.FUNCTION} <span>{members[1].function}</span></p>
-								<p>{dataText.SINCE} <span>{members[1].since}</span></p>
+								<p>{dataText.FUNCTION}<span> {members[1].function} </span></p>
+								<p>{dataText.SINCE}<span> {members[1].since}</span></p>
 							</S.BoxText>
 						</S.Card>
 					))
-				}
-				{member &&
-					<>
-						<S.Banner>
-							<BannerWords title='Cadastrar novos membros' />
-						</S.Banner>
-						<S.Register>
-							<S.Formulary>
-								<S.Label>Apelido</S.Label>
-								<S.Input
-									type='search'
-									required
-									onChange={(e) => setTitle(e.target.value)}
-								/>
-								<S.Label>Nome Completo</S.Label>
-								<S.Input
-									type='search'
-									required
-									onChange={(e) => setName(e.target.value)}
-								/>
-								<S.InputMaskTel>
-									<S.Label>Telefone</S.Label>
-									<InputMask
-										type='tel'
-										mask='(99) 99999-9999'
-										required
-										onChange={(e) => setPhone(e.target.value)}
-									/>
-								</S.InputMaskTel>
-								<S.Label>Foto de perfil</S.Label>
-								<S.Input
-									type='text'
-									placeholder='url da imagem'
-									onChange={(e) => setImage(e.target.value)}
-								/>
-								<S.Label>Cargo</S.Label>
-								<S.Select
-									required
-									onChange={(e) => setOffice(e.target.value)}>
-									<option>Selecione</option>
-									<option value='Membro'>Membro</option>
-									<option value='Visitante'>Visitante</option>
-								</S.Select>
-								<S.Label>Email</S.Label>
-								<S.Input
-									type='email'
-									required
-									placeholder='seuemail@email.com'
-									onChange={(e) => setEmail(e.target.value)}
-								/>
-								<S.Label>Data de nascimento</S.Label>
-								<S.Input
-									type='date'
-									required
-									onChange={(e) => setBirthDate(e.target.value)}
-								/>
-								<S.Label>Quando entrou na célula?</S.Label>
-								<S.Input
-									type='month'
-									onChange={(e) => setSince(e.target.value)}
-								/>
-								<S.Button
-									onClick={(e) => {
-										e.preventDefault()
-										name && phone && title && birthDate && office && email
-											? register()
-											: alert('preencha todos os campos')
-									}}>
-									Cadastrar
-								</S.Button>
-							</S.Formulary>
-						</S.Register>
-					</>
 				}
 			</S.Container>
 		</>

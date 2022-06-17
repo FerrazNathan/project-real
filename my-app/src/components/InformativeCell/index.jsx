@@ -1,6 +1,9 @@
 import React from 'react'
 import BannerWords from '../BannerWords'
 import { vision, target } from '../../mock'
+import { GoLocation } from 'react-icons/go'
+import { BsCalendarDate } from 'react-icons/bs'
+import { FiClock } from 'react-icons/fi'
 import * as S from './styles'
 
 export default function InformativeCell() {
@@ -11,16 +14,16 @@ export default function InformativeCell() {
 				<S.TextTitle>Informaçãoes sobre a Célula</S.TextTitle>
 				<S.TextBody>Nossa célula acontece uma vez por semana</S.TextBody>
 				<S.ContainerText>
-					<S.TextBodySpan>Local: </S.TextBodySpan>
-					<S.TextBody> A confirmar</S.TextBody>
+					<GoLocation />
+					<S.TextBody>Ribeirão Pires</S.TextBody>
 				</S.ContainerText>
 				<S.ContainerText>
-					<S.TextBodySpan>Data: </S.TextBodySpan>
-					<S.TextBody> A confirmar</S.TextBody>
+					<BsCalendarDate />
+					<S.TextBody>20/06/2022</S.TextBody>
 				</S.ContainerText>
 				<S.ContainerText>
-					<S.TextBodySpan>Hora: </S.TextBodySpan>
-					<S.TextBody> A confirmar</S.TextBody>
+					<FiClock />
+					<S.TextBody>20:30</S.TextBody>
 				</S.ContainerText>
 				<S.ContainerText>
 					<S.TextBody>Venha fazer parte da célula você também</S.TextBody>

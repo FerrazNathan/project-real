@@ -5,7 +5,6 @@ export const Container = styled.div`
   height: 100%;
   margin: 15px auto;
   display: flex;
-  flex-direction: column;
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
   border-radius: 16px;
 `
@@ -28,6 +27,9 @@ export const Header = styled.div`
 export const ContentBody = styled.div`
   display: flex;
   justify-content: space-between;
+  :nth-child(2n){
+    flex-direction: row-reverse;
+  }
 `
 
 export const ContentImage = styled.div`
@@ -47,6 +49,8 @@ export const ContentText = styled.div`
     text-align: center;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
+    color: #FFD700;
+    text-decoration: underline;
     font-weight: 400;
     margin: 10px 0;
   }
