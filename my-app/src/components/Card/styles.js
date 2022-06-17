@@ -1,29 +1,37 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-  margin-bottom: 15px;
+export const Container = styled.section`
+  width: 48%;
+  margin: 20px auto 0;
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
-  background-color: #282c34;
   border-radius: 15px;
-  height: 45vh;
+  height: 54vh;
+  background-color: #282c34;
 `
 
 export const Header = styled.div`
-  width: 100%;
-  height: 7vh;
-  text-align: center;
   background-color: #282c34;
-  border-radius: 15px 15px 0 0;
-  padding: 5px;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
   color: #F0D882;
-	font-family: 'Nunito Sans', sans-serif;
+  padding: 5px;
+  border-radius: 15px 15px 0 0;
   & h1 {
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  }
+  & p {
+    margin-top: 0;
+    font-size: 24px;
   }
 `
 
 export const Content = styled.div`
-  border-radius: 0 0 15px 15px;
-  height: 340px;
+  border-radius: 0 0 15px 15px ;
+  height: 45vh;
+  background-color: #E5EEF1;
+  margin-top: -10px;
 `

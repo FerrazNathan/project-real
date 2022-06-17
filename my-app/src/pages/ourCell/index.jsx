@@ -9,7 +9,7 @@ export default function OurCell() {
 
 	const settings = {
 		spaceBetween: 8,
-		slidesPerView: 4,
+		slidesPerView: 3,
 		navigation: true,
 		loop: true,
 		autoplay: {

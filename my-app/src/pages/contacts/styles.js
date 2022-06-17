@@ -10,3 +10,7 @@ export const Banner = styled.div`
     margin-bottom: -3px;
   }
 `
+
+export const ContentIcon = styled.div`
+
+`
