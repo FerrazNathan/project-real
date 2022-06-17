@@ -2,7 +2,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Banner from '../../components/Banner'
 import BannerWords from '../../components/BannerWords'
-import CardTestimonies from '../../components/CardTestimonies'
+import CardVideo from '../../components/Card'
 import {testimoniesMovies} from '../../mock'
 import * as S from './styles'
 
@@ -17,7 +17,7 @@ export default function Testimonies() {
 			<S.Video>
 				{testimoniesMovies.map((item) => {
 					return (
-						<CardTestimonies text={item.text} video={item.video} key={item} />
+						<CardVideo text={item.text} video={item.video} key={item} />
 					)
 				})}
 			</S.Video>

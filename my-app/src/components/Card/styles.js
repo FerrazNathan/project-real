@@ -7,6 +7,8 @@ export const Container = styled.section`
   border-radius: 15px;
   height: 54vh;
   background-color: #282c34;
+  @media (min-width: 768px) {
+  }
 `
 
 export const Header = styled.div`
@@ -16,6 +18,9 @@ export const Header = styled.div`
   color: #F0D882;
   padding: 5px;
   border-radius: 15px 15px 0 0;
+  @media (min-width: 768px) {
+    width: 100%;
+  }
   & h1 {
   font-size: 28px;
   font-weight: 400;
