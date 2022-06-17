@@ -5,6 +5,7 @@ import styles from '../../styles/Home.module.css'
 import CardCell from '../components/CardCell'
 import BoxCardVideo from '../components/BoxCardVideo'
 import BoxCardNews from '../components/BoxCardNews'
+import BoxCardTestimonies from '../components/BoxCardTestimonies'
 
 export default function Home() {
 
@@ -29,6 +30,7 @@ export default function Home() {
 			<CardCell />
 			<BoxCardVideo />
 			<BoxCardNews />
+			<BoxCardTestimonies />
 			<Footer />
 		</div>
 	)

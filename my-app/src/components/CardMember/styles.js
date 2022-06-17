@@ -72,6 +72,7 @@ export const BoxText = styled.div`
     margin-top: 10px;
     margin-bottom: 0;
     color: #FFD700;
+    text-decoration: underline;
     font-weight: 400;
     font-size: 40px;
   }
@@ -81,9 +82,11 @@ export const BoxText = styled.div`
     color: #282c34;
     display: flex;
     flex-wrap: wrap;
+    font-weight: 600;
   }
   & span{
     margin-left: 2px;
+    font-weight: 500;
   }
 `
 

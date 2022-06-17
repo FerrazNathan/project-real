@@ -5,12 +5,12 @@ export const Container = styled.section`
   margin: 20px auto 0;
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
-  height: 56vh;
-  background-color: red;
+  height: 54vh;
+  background-color: #282c34;
 `
 
 export const Header = styled.div`
-  background-color: red;
+  background-color: #282c34;
   text-align: center;
   font-family: 'Nunito Sans', sans-serif;
   color: #F0D882;
