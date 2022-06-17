@@ -22,6 +22,7 @@ export const TextTitle = styled.h1`
 
 export const ContainerText = styled.div`
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -30,7 +31,7 @@ export const ContainerText = styled.div`
 export const TextBody = styled.p`
   color: #282c34;
   font-size: 18px;
-  margin-bottom: 0;
+  margin-left: 20px;
 `
 
 export const TextBodySpan = styled.span`

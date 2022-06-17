@@ -97,52 +97,52 @@ export const wordMovies = [
 
 export const news = [
 	{
+		title: 'Célula',
+		src: './members.jpeg',
+		description: 'Célula é a nossa maneira de sermos igreja e acreditamos que assim podemos alcançar as pessoas de maneira que leve elas a ter um relacionamento íntimo com Jesus.',
+		date: 'Todos os sábados',
+		local: 'Vila Suissa',
+		hour: '19:00 horas'
+	},
+	{
 		title: 'Casas de paz',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+		src: 'https://s3-sa-east-1.amazonaws.com/inradar.media/uploads/page/None/page-88c658e3c8c307e6158ae2720417e3b5.jpg',
+		description: 'O objetivo é fazer a igreja crescer e cumprir a grande comissão deixada por Jesus: fazer discípulos!',
+		date: 'Toda quarta-feira',
+		local: 'Vila Suissa',
+		hour: '19:00 horas'
 	},
 	{
 		title: 'Multiplicação',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
-	},
-	{
-		title: 'Célula',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
-	},
-	{
-		title: 'Agenda',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+		src: './foto3.jpg',
+		description: 'A multiplicação da célula acontecerá para que possamos alcançar o maior número de pessoas possível ganhando assim vidas pra Jesus.',
+		date: '02/07/2022',
+		local: 'Ibav Ribeirão Pires',
+		hour: '19:00 horas'
 	},
 	{
 		title: 'Culto de jovens',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+		src: './radicais.jpg',
+		description: 'Os cultos de jovens acontecem uma vez por mês para unir cada vez mais a igreja e gerar uma comunhão pois somos um em Jesus Cristo, são cultos poderosos que vão edificar muito a sua vida.',
+		date: 'Último sábado do mês',
+		local: 'Ibav Ribeirão Pires',
+		hour: '19:00 horas'
 	},
 	{
 		title: 'Encontro',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+		src: 'https://uploads.spiritfanfiction.com/historias/capas/201902/encontro-com-deus-15669738-010220190908.jpg',
+		description: 'O Encontro de um dia é realmente algo que vai mudar a sua vida, com palavras direcionadas para que vc seja transformado pelo poder de Jesus.',
+		date: '25/06/2022',
+		local: 'Ibav Ribeirão Pires',
+		hour: '14:30 horas'
 	},
 	{
 		title: 'Convenção',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
-	},
-	{
-		title: 'Discipulado',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
-	},
-	{
-		title: 'Célula do amigo',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
-	},
-	{
-		title: 'Culto de ceia',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
-	},
-	{
-		title: 'Encontro de casais',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
-	},
-	{
-		title: 'Acampamento',
-		description: 'Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis!Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.Quem manda na minha terra sou euzis'
+		src: './members.jpeg',
+		description: 'Vem aí a nossa Conferência de jovens que será simplesmente sensacional, venha fazer parte você também, mais corre pois as inscrições são limitadas! ',
+		date: '30/07/2022',
+		local: 'Ibav Ribeirão Pires',
+		hour: '09:00 horas'
 	},
 ]
 
