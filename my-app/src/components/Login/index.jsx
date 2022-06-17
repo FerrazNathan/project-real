@@ -33,7 +33,7 @@ export default function Form() {
 					type="text"
 					placeholder="Digite seu nome"
 					value={name}
-					onChange={(event) => setName(event.target.value).toLowerCase()}
+					onChange={(event) => setName(event.target.value)}
 				/>
 				<S.Input
 					type="password"
