@@ -1,9 +1,6 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-export const Video = styled.div`
-  width: 1270px;
+export const Container = styled.section`
+  width: 100%;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
+`;

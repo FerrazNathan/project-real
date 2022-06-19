@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Video = styled.div`
   width: 1260px;
@@ -7,11 +7,12 @@ export const Video = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  @media(max-width: 768px) {
+  border-radius: 16px;
+  @media (max-width: 768px) {
     flex-direction: column;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
   }
-`
+`;
