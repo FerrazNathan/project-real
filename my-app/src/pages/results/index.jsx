@@ -81,8 +81,8 @@ export default function Results() {
       />
       <S.ListQuestions>
         <S.TextMain>
-          {dataText.LEADER} <S.Span>{urlParams?.leader}</S.Span>{' '}
-          {leader(urlParams)}
+          {dataText.LEADER}
+          <S.Span>{urlParams?.leader}</S.Span> {leader(urlParams)}
         </S.TextMain>
         <S.TextMain>
           {dataText.BIRTHDATECELL} <S.Span>{urlParams?.birthDateCell}</S.Span>{' '}
