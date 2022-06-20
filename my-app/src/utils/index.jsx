@@ -16,7 +16,7 @@ export const leader = (urlParams) => {
 }
 
 export const birthDateCell = (urlParams) => {
-	if(urlParams?.birthDateCell === '2012') {
+	if(urlParams?.birthDateCell === '2011') {
 		return(<img src='./icone-ok.png' alt='ícone de correto' />)
 	}
 	else {

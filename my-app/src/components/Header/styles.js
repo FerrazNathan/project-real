@@ -13,7 +13,7 @@ export const ContentHeader = styled.div`
   margin: 0 auto;
   background-color: #282c34;
   color: #fce799;
-  padding: 15px;
+  padding: 15px 0;
   
   & ul {
     margin-top: 35px;
@@ -41,6 +41,7 @@ export const Button = styled.button`
   position: absolute;
   right: 5px;
   top: 85%;
+  font-size: 18px;
 `
 
 export const Text = styled.div`
