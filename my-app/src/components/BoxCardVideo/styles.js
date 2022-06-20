@@ -1,7 +1,8 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Video = styled.div`
-  width: 1260px;
+  max-width: 1335px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -15,4 +16,4 @@ export const Video = styled.div`
     flex-direction: column;
     align-content: flex-start;
   }
-`;
+`

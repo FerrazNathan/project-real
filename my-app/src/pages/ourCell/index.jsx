@@ -13,7 +13,7 @@ export default function OurCell() {
 		navigation: true,
 		loop: true,
 		autoplay: {
-			delay: 6500,
+			delay: 4500,
 			disableOnInteraction: false,
 		},
 		pagination: {

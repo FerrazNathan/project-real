@@ -14,7 +14,7 @@ export const ContentFooter = styled.div`
   margin: 0 auto;
   background-color: #282c34;
   color: #F0D882;
-  padding: 5px 20px;
+  padding: 5px;
   margin-top: 2.9rem;
   & ul {
     margin-top: 20px;

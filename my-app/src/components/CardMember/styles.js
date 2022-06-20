@@ -28,6 +28,7 @@ export const Button = styled.button`
   border-radius: 10px;
   margin-left: 20px;
   border: none;
+  font-size: 0.8rem;
   background-color: #282c34;
   color: #fff9c7;
   text-transform: uppercase;
@@ -66,18 +67,19 @@ export const BoxText = styled.div`
   padding: 10px;
   line-height: 0.8;
   width: 40%;
+  margin: 4px 4px 0 0;
   & h2{
     font-family: 'Great Vibes', cursive;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     color: #FFD700;
     text-decoration: underline;
     font-weight: 400;
     font-size: 40px;
   }
   & p {
-    font-size: 18px;
+    font-size: 1rem;
     font-family: 'Nunito Sans', sans-serif;
     color: #282c34;
     display: flex;
@@ -85,7 +87,7 @@ export const BoxText = styled.div`
     font-weight: 600;
   }
   & span{
-    margin-left: 2px;
+    margin-left: 4px;
     font-weight: 500;
   }
 `
