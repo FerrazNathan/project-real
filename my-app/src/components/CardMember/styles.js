@@ -8,8 +8,18 @@ export const ContentSearch = styled.div`
   justify-content: space-between;
 `
 
+export const ContentLabelInputSearch = styled.div`
+
+`
+
+export const LabelInputSearch = styled.div`
+  font-family: 'Nunito Sans', sans-serif;
+  color: #143D59;
+  font-weight: 600;
+`
+
 export const InputSearch = styled.input`
-  width: 50%;
+  width: 39rem;
   padding: 12px;
   border-radius: 10px;
   border: none;
@@ -24,7 +34,7 @@ export const InputSearch = styled.input`
 
 export const Button = styled.button`
   padding: 5px;
-  margin-top: 10px;
+  margin-top: 2rem;
   border-radius: 10px;
   margin-left: 20px;
   border: none;
@@ -71,9 +81,9 @@ export const BoxText = styled.div`
   & h2{
     font-family: 'Great Vibes', cursive;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #FFD700;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    color: #143D59;
     text-decoration: underline;
     font-weight: 400;
     font-size: 40px;

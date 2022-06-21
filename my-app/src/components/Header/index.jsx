@@ -30,7 +30,6 @@ export default function Header() {
 					<li onClick={() => redirect('/events')}>Eventos</li>
 					<li onClick={() => redirect('/testimonies')}>Testemunhos</li>
 					<li onClick={() => redirect('/ourCell')}>Nossa célula</li>
-					<li onClick={() => redirect('/contacts')}>Contatos</li>
 				</ul>
 				<S.Icon>
 				</S.Icon>

@@ -38,9 +38,9 @@ export const Text = styled.div`
     font-size: 35px;
     color: #F0D882;
     font-weight: 400;
-    margin-bottom: -15px;
     margin-top: 0;
-    margin-bottom: -20px;
+    margin-bottom: -5rem;
+    margin-top: 2rem;
 }
   & h2{
     font-size: 30px;
@@ -48,6 +48,10 @@ export const Text = styled.div`
     font-family: 'Great Vibes', cursive;
     color: #F0D882;
     font-weight: 400;
-    margin-bottom: -10px;
   }
+`
+
+export const ContentContact = styled.div`
+  margin-right: 2rem;
+  margin-top: 2rem;
 `

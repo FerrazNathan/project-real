@@ -28,7 +28,6 @@ export default function InformativeCell() {
 				<S.ContainerText>
 					<S.TextBody>Venha fazer parte da célula você também</S.TextBody>
 				</S.ContainerText>
-
 				<S.TextTitle>Nossa Visão</S.TextTitle>
 				{ vision.map((text) => {
 					return <S.TextBody key={text}>{text.text}</S.TextBody>					
