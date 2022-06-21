@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Banner = styled.div`
   max-width: 1940px;
@@ -8,8 +8,10 @@ export const Banner = styled.div`
     width: 100%;
     height: 60vh;
     margin-bottom: -3px;
+    object-fit: cover;
+    object-position: 100% 40%;
   }
-`;
+`
 
 export const Container = styled.div`
   max-width: 1320px;
@@ -19,4 +21,4 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-`;
+`

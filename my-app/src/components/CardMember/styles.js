@@ -70,6 +70,8 @@ export const BoxHeader = styled.div`
     width: 340px;
     height: 305px;
     border-radius: 16px 0 0 16px;
+    object-fit: cover;
+    object-position: 100% 46%;
   }
 `
 
