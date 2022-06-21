@@ -37,6 +37,8 @@ export const ContentImage = styled.div`
   width: 850px;
   height: 400px;
   border-radius: 15px 0 0 15px;
+  object-fit: cover;
+  object-position: 100% 60%;
   }
 `
 
