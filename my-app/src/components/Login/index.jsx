@@ -43,7 +43,7 @@ export default function Form() {
 				/>
 				<S.Buttons>
 					<S.Button type='submit' onClick={() => submit()}>Já sou membro</S.Button>
-					<S.Button type='button' onClick={() => redirect('/home')}>Entrar como convidado</S.Button>
+					<S.Button type='button' onClick={() => redirect('/home')}>Entrar como visitante</S.Button>
 				</S.Buttons>
 			</S.Container>
 		</>

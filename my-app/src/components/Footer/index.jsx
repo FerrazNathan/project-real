@@ -1,7 +1,8 @@
 import React from 'react'
-import * as S from './styles'
+import Contact from '../Contact'
 import { redirect } from '../../utils'
 import { dataText } from '../../common/constants/dataText'
+import * as S from './styles'
 
 export default function Header() {
 	return (
@@ -14,10 +15,12 @@ export default function Header() {
 					<li onClick={() => redirect('/events')}>Eventos</li>
 					<li onClick={() => redirect('/testimonies')}>Testemunhos</li>
 					<li onClick={() => redirect('/ourCell')}>Nossa célula</li>
-					<li onClick={() => redirect('/contacts')}>Contatos</li>
 				</ul>
 				<S.Text>
 					<h1>{dataText.TITLE}</h1>
+					<S.ContentContact>
+						<Contact />
+					</S.ContentContact>
 					<h2>{dataText.SUBTITLE}</h2>
 				</S.Text>
 			</S.ContentFooter>

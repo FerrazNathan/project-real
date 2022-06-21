@@ -49,7 +49,7 @@ export const ContentText = styled.div`
     text-align: center;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
-    color: #FFD700;
+    color: #143D59;
     text-decoration: underline;
     font-weight: 400;
     margin: 10px 0;

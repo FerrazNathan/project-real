@@ -15,7 +15,7 @@ export const TextTitle = styled.h1`
   font-family: 'Great Vibes', cursive;
   font-size: 48px;
   font-weight: 400;
-  color: #FFD700;
+  color: #143D59;
   text-decoration: underline;
   margin-bottom: 0;
 `

@@ -36,12 +36,15 @@ export default function CardMember() {
 	return (
 		<>
 			<S.ContentSearch>
-				<S.InputSearch
-					type="search"
-					value={search}
-					placeholder="Pesquise por um membro da célula..."
-					onChange={(e) => setSearch(e.target.value)}
-				/>
+				<S.ContentLabelInputSearch>
+					<S.LabelInputSearch>Pesquise por nossos membros</S.LabelInputSearch>
+					<S.InputSearch
+						type="search"
+						value={search}
+						placeholder="Pesquise por um membro da célula..."
+						onChange={(e) => setSearch(e.target.value)}
+					/>
+				</S.ContentLabelInputSearch>
 				{member === 'Felipe' && (
 					<S.Button onClick={() => redirect('/register')}>
 						Cadastrar novos membros
