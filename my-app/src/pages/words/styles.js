@@ -10,6 +10,9 @@ export const Banner = styled.div`
     margin-bottom: -3px;
     /* object-fit: cover;
     object-position: 0% 25%; */
+    @media (max-width: 768px) {
+      height: 40vh;
+    }
   }
 `
 
@@ -20,4 +23,11 @@ export const Video = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: 0.2rem 0.2rem;
+  }
 `

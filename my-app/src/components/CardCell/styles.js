@@ -8,6 +8,9 @@ export const Container = styled.section`
   border-radius: 15px;
   height: 58vh;
   background-color: #282c34;
+  @media (max-width: 768px) {
+    width: 95%;
+  }
 `
 
 export const Header = styled.div`
