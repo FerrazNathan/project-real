@@ -27,8 +27,9 @@ export const Header = styled.div`
 export const ContentBody = styled.div`
   display: flex;
   justify-content: space-between;
-  :nth-child(2n){
-    flex-direction: row-reverse;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
   }
 `
 
@@ -39,6 +40,12 @@ export const ContentImage = styled.div`
   border-radius: 15px 0 0 15px;
   object-fit: cover;
   object-position: 100% 60%;
+  @media (max-width: 768px) {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    object-fit: fill;
+    /* object-position: 30% 0%; */
+  }
   }
 `
 
