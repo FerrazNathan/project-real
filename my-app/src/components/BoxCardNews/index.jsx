@@ -21,8 +21,8 @@ export default function BoxCardNews() {
 					title='Multiplicação'
 					src='./foto3.jpg'
 					text='A multiplicação da célula acontecerá para que possamos alcançar o maior número de pessoas possível ganhando assim vidas pra Jesus.'
-					date= '02/07/2022'
-					local= 'Ibav Ribeirão Pires'
+					date='02/07/2022'
+					local='Ibav Ribeirão Pires'
 					hour='19:00 horas'
 				/>
 				<CardNews
@@ -30,10 +30,38 @@ export default function BoxCardNews() {
 					src='https://igreja-presbiteriana-peniel.webnode.com/_files/200000011-85f4e86f03/Casa-de-Paz1.jpeg'
 					text='O objetivo é fazer a igreja crescer e cumprir a grande comissão deixada por Jesus: fazer discípulos!'
 					date='Toda quarta-feira'
-					local= 'Vila Suissa'
+					local='Vila Suissa'
 					hour='19:00 horas'
 				/>
 			</S.Card>
 		</>
 	)
 }
+
+// VALIDAÇÃO PARA SABER SE A RESOLUÇÃO DA TELA ESTA EM MOBILE PRA EXIBIR UMA IMAGEM DIFERENTE CASO MOBILE
+
+// 1=> CRIAR UM STATE QUE INICIA VAZIO
+//const [widthMobile, setWidthMobile] = useState()
+
+// 2=> CRIAR UMA FUNÇÃO QUE USA O WINDOW.INNERWIDTH
+// useEffect(() => {
+// 	if (typeof window !== undefined) {
+// 		const mobile = window.innerWidth
+// 		setWidthMobile(mobile)
+// 	}
+// }, [])
+
+// 3=> FAZER UMA CONDIÇÃO TERNÁRIA NA IMAGEM QUE SERÁ EXIBIDA
+// {
+// 	widthMobile > 480 ? (
+// 		<img
+// 			src=''
+// 			alt=''
+// 		/>
+// 	) : (
+// 		<img
+// 			src=''
+// 			alt=''
+// 		/>
+// 	)
+// }
