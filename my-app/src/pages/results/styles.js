@@ -8,6 +8,11 @@ export const Banner = styled.div`
     width: 100%;
     height: 60vh;
     margin-bottom: -3px;
+    @media (max-width: 768px) {
+      /* object-fit: cover;
+      object-position: 40% 10%; */
+      height: 40vh;
+    }
   }
 `
 
@@ -15,6 +20,10 @@ export const ListQuestions = styled.div`
   max-width: 1220px;
   width: 100%;
   margin: 0 auto;
+  font-family: 'Nunito Sans', sans-serif;
+  @media (max-width: 768px) {
+    margin-left: 0.3rem;
+  }
 `
 
 export const TextMain = styled.p`

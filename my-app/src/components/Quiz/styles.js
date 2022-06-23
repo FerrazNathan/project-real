@@ -9,16 +9,6 @@ export const Container = styled.section`
   justify-content: center;
   align-items: center;
   font-family: 'Nunito Sans', sans-serif;
-  & button{
-    background-color: #143D59;
-    color: #F0D882;
-    border-radius: 5px;
-    border: none;
-    margin-right: 20px;
-    padding: 10px;
-    cursor: pointer;
-    width: 100%;
-  }
 `
 
 export const ContentQuestion = styled.div`
@@ -39,6 +29,10 @@ export const ContentQuestion = styled.div`
     text-transform: uppercase;
     font-weight: 600;
   }
+  @media (max-width: 768px) {
+      width: 80%;
+      margin-left: 1rem;
+    }
 `
 
 export const Select = styled.select`
@@ -53,5 +47,19 @@ export const Select = styled.select`
   cursor: pointer;
   &:focus{
     background-color: #e8f0fe;
+  }
+`
+
+export const ButtonConclusion = styled.button`
+  background-color: #143D59;
+  color: #F0D882;
+  border-radius: 5px;
+  border: none;
+  margin-right: 20px;
+  padding: 10px;
+  cursor: pointer;
+  width: 30%;
+  @media (max-width: 768px) {
+    width: 80%;
   }
 `
