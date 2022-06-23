@@ -37,3 +37,31 @@ export default function BoxCardNews() {
 		</>
 	)
 }
+
+// VALIDAÇÃO PARA SABER SE A RESOLUÇÃO DA TELA ESTA EM MOBILE PRA EXIBIR UMA IMAGEM DIFERENTE CASO MOBILE
+
+// 1=> CRIAR UM STATE QUE INICIA VAZIO
+//const [widthMobile, setWidthMobile] = useState()
+
+// 2=> CRIAR UMA FUNÇÃO QUE USA O WINDOW.INNERWIDTH
+// useEffect(() => {
+// 	if (typeof window !== undefined) {
+// 		const mobile = window.innerWidth
+// 		setWidthMobile(mobile)
+// 	}
+// }, [])
+
+// 3=> FAZER UMA CONDIÇÃO TERNÁRIA NA IMAGEM QUE SERÁ EXIBIDA
+{
+	widthMobile > 480 ? (
+		<img
+		 src=	''
+		 alt=''
+		  />
+	) : (
+		<img
+		 src=''
+		 alt=''
+		 />
+	)
+}
