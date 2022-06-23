@@ -8,4 +8,9 @@ export const Card = styled.div`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;`
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    width: 90%;
+    
+  }
+`

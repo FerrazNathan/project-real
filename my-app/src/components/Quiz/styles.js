@@ -28,6 +28,10 @@ export const ContentQuestion = styled.div`
     color: #fff9c7;
     text-transform: uppercase;
     font-weight: 600;
+    @media (max-width: 768px) {
+      width: 90%;
+      margin-left: 1rem;
+    }
   }
   @media (max-width: 768px) {
       width: 80%;
