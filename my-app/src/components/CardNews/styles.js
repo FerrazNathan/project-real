@@ -29,6 +29,7 @@ export const ContentBody = styled.div`
   justify-content: space-between;
   @media (max-width: 768px) {
     display: flex;
+    height: 100%;
     flex-direction: column;
   }
 `
@@ -42,8 +43,9 @@ export const ContentImage = styled.div`
   object-position: 100% 60%;
   @media (max-width: 768px) {
     width: 100%;
+    height: 100%;
     border-radius: 16px 16px 0 0;
-    object-fit: fill;
+    object-fit: cover;
     /* object-position: 30% 0%; */
   }
   }
