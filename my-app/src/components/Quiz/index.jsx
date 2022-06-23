@@ -231,14 +231,13 @@ export default function Quiz() {
 				)}
 				{/* renderização condicional para saber a sua avaliação do quiz */}
 				{position === 10 && (
-					<button
-						style={{ width: '20%' }}
+					<S.ButtonConclusion
 						onClick={() =>
 							(window.location.href = `/results?leader=${leader}&birthDateCell=${birthDateCell}&firstCellNumber=${firstCellNumber}&cellLocation=${cellLocation}&dayCell=${dayCell}&leaderArrived=${leaderArrived}&shepherdName=${shepherdName}&communion=${communion}&disciplerName=${disciplerName}&howManyMembers=${howManyMembers}&answer=${answer}`)
 						}
 					>
             Veja o Resultado do Quiz
-					</button>
+					</S.ButtonConclusion>
 				)}
 			</S.Container>
 		</>

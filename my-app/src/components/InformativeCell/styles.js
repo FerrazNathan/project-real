@@ -18,6 +18,9 @@ export const TextTitle = styled.h1`
   color: #143D59;
   text-decoration: underline;
   margin-bottom: 0;
+  @media (max-width: 768px) {
+    margin: 0 3rem;
+  }
 `
 
 export const ContainerText = styled.div`
@@ -32,6 +35,9 @@ export const TextBody = styled.p`
   color: #282c34;
   font-size: 18px;
   margin-left: 20px;
+  @media (max-width: 768px) {
+    margin-right: 1rem
+  }
 `
 
 export const TextBodySpan = styled.span`
