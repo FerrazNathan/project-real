@@ -5,9 +5,6 @@ import * as S from './styles'
 export default function CardVideo({ video }) {
 	return (
 		<S.Container>
-			{/* <S.Header>
-        <h1>{text}</h1>
-      </S.Header> */}
 			<S.Content>
 				<iframe
 					style={{

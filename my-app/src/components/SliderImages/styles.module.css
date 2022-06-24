@@ -28,3 +28,10 @@
   margin-bottom: -3px;
   cursor: pointer;
 }
+
+@media(max-width: 768px){
+  .single img {
+    width: 100%;
+    height: 20vh
+  }
+}

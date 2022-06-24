@@ -28,6 +28,13 @@ export const ContentFooter = styled.div`
     & :hover{
     color: #FFF;
     }
+    @media (max-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-right: 3rem;
+      margin-bottom: 3rem;
+    }
   }
   
 `
@@ -41,6 +48,8 @@ export const Text = styled.div`
     margin-top: 0;
     margin-bottom: -5rem;
     margin-top: 2rem;
+    @media (max-width: 768px) {
+    }
 }
   & h2{
     font-size: 30px;
@@ -48,10 +57,16 @@ export const Text = styled.div`
     font-family: 'Great Vibes', cursive;
     color: #F0D882;
     font-weight: 400;
+    @media (max-width: 768px) {
+      margin: 2.5rem auto 0;
+    }
   }
 `
 
 export const ContentContact = styled.div`
   margin-right: 2rem;
   margin-top: 2rem;
+  @media (max-width: 768px) {
+    margin: 0 4rem 2rem 0;
+  }
 `

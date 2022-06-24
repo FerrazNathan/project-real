@@ -13,8 +13,7 @@ export const ContentHeader = styled.div`
   margin: 0 auto;
   background-color: #282c34;
   color: #fce799;
-  padding: 15px 0;
-  
+  padding: 15px 0;                                                      
   & ul {
     margin-top: 35px;
     margin-right: 3%;
@@ -27,6 +26,12 @@ export const ContentHeader = styled.div`
     cursor: pointer;
     & :hover{
     color: #FFF;
+    }
+    @media (max-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-right: 2rem;
     }
   }  
 `
@@ -42,6 +47,9 @@ export const Button = styled.button`
   right: 5px;
   top: 85%;
   font-size: 18px;
+  @media (max-width: 1366px) {
+    margin-top: -4rem;
+  }
 `
 
 export const Text = styled.div`
