@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Banner = styled.div`
   max-width: 1940px;
@@ -11,7 +11,7 @@ export const Banner = styled.div`
     object-fit: cover;
     object-position: 0% 25%;
   }
-`
+`;
 
 export const Video = styled.div`
   width: 1260px;
@@ -20,4 +20,4 @@ export const Video = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-`
+`;
