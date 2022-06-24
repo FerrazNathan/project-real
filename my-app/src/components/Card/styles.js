@@ -27,4 +27,7 @@ export const Content = styled.div`
     width: 100%;
     flex-wrap: wrap;
   }
+  @media (max-width: 1366px) {
+    height: 40vh;
+  }
 `

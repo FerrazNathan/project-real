@@ -9,7 +9,7 @@ export default function Header() {
 		<S.Container>
 			<S.ContentFooter>
 				<ul>
-					<li onClick={() => redirect('/')}>Home</li>
+					<li onClick={() => redirect('/home')}>Home</li>
 					<li onClick={() => redirect('/members')}>Membros</li>
 					<li onClick={() => redirect('/words')}>Palavras</li>
 					<li onClick={() => redirect('/events')}>Eventos</li>

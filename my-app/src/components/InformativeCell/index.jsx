@@ -19,7 +19,7 @@ export default function InformativeCell() {
 				</S.ContainerText>
 				<S.ContainerText>
 					<BsCalendarDate />
-					<S.TextBody>20/06/2022</S.TextBody>
+					<S.TextBody>Semanal</S.TextBody>
 				</S.ContainerText>
 				<S.ContainerText>
 					<FiClock />
