@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.section`
   max-width: 1335px;
@@ -9,17 +9,17 @@ export const Container = styled.section`
   justify-content: center;
   align-items: center;
   font-family: 'Nunito Sans', sans-serif;
-`
+`;
 
 export const ContentQuestion = styled.div`
-  & h2{
+  & h2 {
     font-size: 44px;
     margin-bottom: 0;
   }
-  & p{
+  & p {
     font-size: 20px;
   }
-  & button{
+  & button {
     padding: 10px;
     margin-top: 10px;
     border-radius: 10px;
@@ -34,13 +34,13 @@ export const ContentQuestion = styled.div`
     }
   }
   @media (max-width: 768px) {
-      width: 80%;
-      margin-left: 1rem;
-    }
-`
+    width: 80%;
+    margin-left: 1rem;
+  }
+`;
 
 export const Select = styled.select`
-  background-color: #FFF;
+  background-color: #fff;
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   border: none;
@@ -49,14 +49,15 @@ export const Select = styled.select`
   outline: 0;
   width: 100%;
   cursor: pointer;
-  &:focus{
+  font-size: 1rem;
+  &:focus {
     background-color: #e8f0fe;
   }
-`
+`;
 
 export const ButtonConclusion = styled.button`
-  background-color: #143D59;
-  color: #F0D882;
+  background-color: #143d59;
+  color: #f0d882;
   border-radius: 5px;
   border: none;
   margin-right: 20px;
@@ -66,4 +67,4 @@ export const ButtonConclusion = styled.button`
   @media (max-width: 768px) {
     width: 80%;
   }
-`
+`;

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Banner = styled.div`
   max-width: 1940px;
@@ -14,7 +14,7 @@ export const Banner = styled.div`
       height: 40vh;
     }
   }
-`
+`;
 
 export const Video = styled.div`
   width: 1260px;
@@ -23,6 +23,9 @@ export const Video = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+<<<<<<< HEAD
+`;
+=======
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
@@ -31,3 +34,4 @@ export const Video = styled.div`
     margin: 0.2rem 0.2rem;
   }
 `
+>>>>>>> 05d2baa870111d6d7b9d86cc40a70afbd8547c01
