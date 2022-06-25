@@ -27,7 +27,7 @@
 
 @media(max-width: 768px){
   .single img {
-    width: 100%;
+    width: 100vw;
     height: 30vh
   }
 }

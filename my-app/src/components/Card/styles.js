@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.section`
   max-width: 1335px;
@@ -12,10 +12,10 @@ export const Container = styled.section`
     flex-direction: column;
     flex-wrap: wrap;
     width: 94%;
-    margin: 0.2rem 0.8rem;
-    height: 30vh;
+    margin: 0.5rem 0.8rem;
+    height: 40vh;
   }
-`
+`;
 
 export const Content = styled.div`
   height: 100%;
@@ -30,4 +30,4 @@ export const Content = styled.div`
   @media (max-width: 1366px) {
     height: 40vh;
   }
-`
+`;
