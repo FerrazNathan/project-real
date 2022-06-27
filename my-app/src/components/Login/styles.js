@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.section`
   margin: 50px auto;
@@ -8,20 +8,20 @@ export const Container = styled.section`
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
-`
+`;
 
 export const Title = styled.h1`
-  color: linear-gradient(#CDA83D 50%, #F0D882);
+  color: linear-gradient(#cda83d 50%, #f0d882);
   font-family: 'Great Vibes', cursive;
   font-size: 80px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 0;
-  color: #F0D882;
-  @media(max-width: 768px) {
+  color: #f0d882;
+  @media (max-width: 768px) {
     margin: 20px auto;
   }
-  `
+`;
 
 export const Subtitle = styled.h2`
   /* color: #fff9c7; */
@@ -30,7 +30,7 @@ export const Subtitle = styled.h2`
   font-size: 60px;
   font-weight: 400;
   text-align: center;
-`
+`;
 
 export const Input = styled.input`
   width: 30%;
@@ -42,35 +42,35 @@ export const Input = styled.input`
   outline: 0;
   padding: 20px;
   cursor: pointer;
-  &:focus{
+  &:focus {
     background-color: #e8f0fe;
   }
-  @media(max-width: 480px){
+  @media (max-width: 768px) {
     width: 75%;
     margin-left: 3rem;
   }
-`
+`;
 
 export const Buttons = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     margin: 0 auto;
     margin-left: 40px;
   }
-`
+`;
 
 export const Button = styled.button`
-  background-color: #143D59;
-  color: #F0D882;
+  background-color: #143d59;
+  color: #f0d882;
   border-radius: 5px;
   border: none;
   margin-right: 20px;
   padding: 10px;
   cursor: pointer;
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     margin-top: -8px;
     margin-bottom: 5px;
   }
-`
+`;

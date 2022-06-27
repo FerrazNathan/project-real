@@ -28,6 +28,7 @@ export const ContentQuestion = styled.div`
     color: #fff9c7;
     text-transform: uppercase;
     font-weight: 600;
+    cursor: pointer;
     @media (max-width: 768px) {
       width: 90%;
       margin-left: 1rem;
