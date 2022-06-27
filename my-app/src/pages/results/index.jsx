@@ -20,24 +20,29 @@ import Banner from '../../components/Banner'
 
 export default function Results() {
 	const [name, setName] = useState('')
+	const [a, setA] = useState('')
 
-	let params
-	if (typeof window !== 'undefined') {
-		params = new URLSearchParams(window.location.search)
-	}
-
-	let urlParams = undefined
-	params &&
-		params.forEach((value, key) => {
-			urlParams = Object.assign({}, urlParams, {
-				[key]: value.toString(),
-			})
-		})
 
 	useEffect(() => {
 		if (typeof window !== 'undefined') {
 			setName(localStorage.getItem('name'))
 		}
+	}, [])
+
+	useEffect(() => {
+		let params
+		if (typeof window !== 'undefined') {
+			params = new URLSearchParams(window.location.search)
+		}
+
+		let urlParams = undefined
+		params &&
+			params.forEach((value, key) => {
+				urlParams = Object.assign({}, urlParams, {
+					[key]: value.toString(),
+				})
+			})
+		setA(urlParams)
 	}, [])
 
 	const conclusion = (response) => {
@@ -77,61 +82,63 @@ export default function Results() {
 			</S.Banner>
 			<BannerWords
 				title="Essas foram as suas respostas"
-				text={`${name ? name : ''} ${conclusion(urlParams?.answer)}`}
+				text={`${name ? name : ''} ${conclusion(a?.answer)}`}
 			/>
 			<S.ListQuestions>
 				<S.TextMain>
 					{dataText.LEADER}
-					<S.SpanText>{urlParams?.leader}</S.SpanText>
-					{leader(urlParams)}
+					<S.SpanText>{a?.leader}</S.SpanText>
+					{leader(a?.leader)}
 				</S.TextMain>
 				<S.TextMain>
 					{dataText.BIRTHDATECELL}
-					<S.SpanText>{urlParams?.birthDateCell}</S.SpanText>
-					{birthDateCell(urlParams)}
+					<S.SpanText>{a?.birthDateCell}</S.SpanText>
+					{birthDateCell(a)}
 				</S.TextMain>
 				<S.TextMain>
 					{dataText.FIRSTCELLNUMBER}
-					<S.SpanText>{urlParams?.firstCellNumber}</S.SpanText>
-					{firstCellNumber(urlParams)}
+					<S.SpanText>{a?.firstCellNumber}</S.SpanText>
+					{firstCellNumber(a)}
 				</S.TextMain>
 				<S.TextMain>
 					{dataText.CELLLOCATION}
-					<S.SpanText>{urlParams?.cellLocation}</S.SpanText>
-					{cellLocation(urlParams)}
+					<S.SpanText>{a?.cellLocation}</S.SpanText>
+					{cellLocation(a)}
 				</S.TextMain>
 				<S.TextMain>
 					{dataText.DAYCELL}
-					<S.SpanText>{urlParams?.dayCell}</S.SpanText>
-					{dayCell(urlParams)}
+					<S.SpanText>{a?.dayCell}</S.SpanText>
+					{dayCell(a)}
 				</S.TextMain>
 				<S.TextMain>
 					{dataText.COMMUNION}
-					<S.SpanText>{urlParams?.communion}</S.SpanText>
-					{communion(urlParams)}
+					<S.SpanText>{a?.communion}</S.SpanText>
+					{communion(a)}
 				</S.TextMain>
 				<S.TextMain>
 					{dataText.LEADERARRIVED}
-					<S.SpanText>{urlParams?.leaderArrived}</S.SpanText>
-					{leaderArrived(urlParams)}
+					<S.SpanText>{a?.leaderArrived}</S.SpanText>
+					{leaderArrived(a)}
 				</S.TextMain>
 				<S.TextMain>
 					{dataText.SHEPERDNAME}
-					<S.SpanText>{urlParams?.shepherdName}</S.SpanText>
-					{shepherdName(urlParams)}
+					<S.SpanText>{a?.shepherdName}</S.SpanText>
+					{shepherdName(a)}
 				</S.TextMain>
 				<S.TextMain>
 					{dataText.DISCIPLERNAME}
-					<S.SpanText>{urlParams?.disciplerName} </S.SpanText>
-					{disciplerName(urlParams)}
+					<S.SpanText> {a?.disciplerName}</S.SpanText>
+					{disciplerName(a)}
 				</S.TextMain>
 				<S.TextMain>
 					{dataText.HOWMANYMEMBERS}
-					<S.SpanText>{urlParams?.howManyMembers}</S.SpanText>
-					{howManyMembers(urlParams)}
+					<S.SpanText>{a?.howManyMembers}</S.SpanText>
+					{howManyMembers(a)}
 				</S.TextMain>
 			</S.ListQuestions>
 			<Footer />
 		</>
 	)
 }
+
+// 
