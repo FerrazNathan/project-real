@@ -44,7 +44,7 @@ export const Button = styled.button`
   margin-left: 98%;
   margin-top: -20px;
   position: absolute;
-  right: 5px;
+  right: 25px;
   top: 85%;
   font-size: 18px;
   @media (max-width: 1366px) {
