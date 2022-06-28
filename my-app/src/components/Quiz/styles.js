@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.section`
   max-width: 1335px;
@@ -9,7 +9,7 @@ export const Container = styled.section`
   justify-content: center;
   align-items: center;
   font-family: 'Nunito Sans', sans-serif;
-`
+`;
 
 export const ContentQuestion = styled.div`
   & h2 {
@@ -39,7 +39,7 @@ export const ContentQuestion = styled.div`
     width: 80%;
     margin-left: 1rem;
   }
-`
+`;
 
 export const Select = styled.select`
   background-color: #fff;
@@ -55,18 +55,24 @@ export const Select = styled.select`
   &:focus {
     background-color: #e8f0fe;
   }
-`
+`;
 
 export const ButtonConclusion = styled.button`
-  background-color: #143d59;
-  color: #f0d882;
-  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
   border: none;
-  margin-right: 20px;
-  padding: 10px;
+  background-color: #282c34;
+  color: #fff9c7;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%;
   cursor: pointer;
-  width: 30%;
   @media (max-width: 768px) {
-    width: 80%;
+    width: 90%;
+    margin-left: 1rem;
   }
-`
+  @media (min-width: 769px) {
+    width: 50%;
+  }
+`;
