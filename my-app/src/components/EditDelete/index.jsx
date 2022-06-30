@@ -159,7 +159,9 @@ export default function EditDelete() {
                 />
                 <S.Button onClick={() => editing(item[0])}>Editar</S.Button>
               </div>
-              <S.Button onClick={() => deleting(item[0])}>Remover</S.Button>
+              <S.ButtonRemove onClick={() => deleting(item[0])}>
+                Remover
+              </S.ButtonRemove>
             </S.Card>
           );
         })}

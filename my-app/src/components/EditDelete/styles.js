@@ -27,6 +27,7 @@ export const Card = styled.div`
   & h3 {
     margin-left: 1rem;
     margin-bottom: -1rem;
+    margin-top: 0.5rem;
   }
   & p {
     margin-left: 1rem;
@@ -105,4 +106,20 @@ export const Select = styled.select`
   &:focus {
     background-color: #e8f0fe;
   }
+`;
+
+export const ButtonRemove = styled.button`
+  padding: 5px 10px;
+  margin-top: 2rem;
+  border-radius: 16px;
+  width: 90%;
+  margin: 1rem auto;
+  border: none;
+  font-size: 0.7rem;
+  background-color: #282c34;
+  color: #fff9c7;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 40px;
+  cursor: pointer;
 `;

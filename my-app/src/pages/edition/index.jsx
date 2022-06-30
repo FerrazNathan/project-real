@@ -13,7 +13,7 @@ export default function Edition() {
       <S.Banner>
         <Banner img="./members.jpeg" />
       </S.Banner>
-      <BannerWords title="Sessão para Editar ou remover membros" />
+      <BannerWords title="Sessão para Editar ou Remover membros" />
       <EditDelete />
       <Footer />
     </div>
