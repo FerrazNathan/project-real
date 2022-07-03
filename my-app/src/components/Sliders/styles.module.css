@@ -18,9 +18,11 @@
 
 .single img {
   width: 100vw;
-  height: 60vh;
+  height: 65vh;
   margin-bottom: -3px;
   cursor: pointer;
+  object-fit: cover;
+  object-position: 100% 30%;
 }
 
 @media(max-width: 768px){

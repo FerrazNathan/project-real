@@ -41,7 +41,7 @@ export default function Sliders({ settings, children }) {
         </SwiperSlide>
         <SwiperSlide className={styles.single}>
           <a onClick={() => redirect('/ourCell')}>
-            <img src="https://i.ytimg.com/vi/zVBcCuxFTWo/sddefault.jpg" />
+            <img src="http://www.videirafrankfurt.de/img/celula.jpg" />
           </a>
         </SwiperSlide>
       </S.Container>

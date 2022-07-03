@@ -6,7 +6,7 @@ export const Banner = styled.div`
   margin: 0 auto;
   & img {
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     margin-bottom: -3px;
     @media (max-width: 768px) {
       height: 40vh;

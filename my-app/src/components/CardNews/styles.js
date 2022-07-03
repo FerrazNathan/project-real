@@ -12,7 +12,7 @@ export const Container = styled.div`
     margin: 1.5rem auto;
   }
   @media (min-width: 1220px) {
-    width: 100%;
+    width: 95%;
     margin: 1.5rem auto;
   }
 `;
@@ -73,9 +73,9 @@ export const ContentImage = styled.div`
 
 export const ContentText = styled.div`
   padding: 0 25px;
-  height: auto;
+  height: 400px;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
   & h1 {
     text-align: center;
     font-family: 'Great Vibes', cursive;
@@ -91,6 +91,7 @@ export const ContentInformation = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: -1rem;
   & p {
     margin-left: 10px;
   }
