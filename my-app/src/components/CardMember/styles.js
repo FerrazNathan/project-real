@@ -2,10 +2,11 @@ import styled from 'styled-components';
 
 export const ContentSearch = styled.div`
   width: 100%;
-  max-width: 1260px;
+  max-width: 1200px;
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
+  @
 `;
 
 export const ContentLabelInputSearch = styled.div``;

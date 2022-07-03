@@ -9,7 +9,7 @@ export const Container = styled.section`
   height: 58vh;
   @media (max-width: 1366px) {
     width: 96%;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
   }
 `;
 
