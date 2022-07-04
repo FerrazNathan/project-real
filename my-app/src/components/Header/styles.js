@@ -1,10 +1,10 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.section`
   width: 100%;
   background-color: #282c34;
   position: relative;
-`;
+`
 
 export const ContentHeader = styled.div`
   max-width: 1335px;
@@ -34,7 +34,7 @@ export const ContentHeader = styled.div`
       margin-right: 3rem;
     }
   }
-`;
+`
 
 export const Button = styled.button`
   border: none;
@@ -50,7 +50,7 @@ export const Button = styled.button`
   @media (max-width: 1366px) {
     margin-top: -4rem;
   }
-`;
+`
 
 export const Text = styled.div`
   & h1 {
@@ -70,6 +70,6 @@ export const Text = styled.div`
     font-weight: 300;
     margin-bottom: -15px;
   }
-`;
+`
 
-export const Icon = styled.img``;
+export const Icon = styled.img``

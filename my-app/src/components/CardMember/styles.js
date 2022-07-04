@@ -1,21 +1,20 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const ContentSearch = styled.div`
   width: 100%;
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
-  @
-`;
+`
 
-export const ContentLabelInputSearch = styled.div``;
+export const ContentLabelInputSearch = styled.div``
 
 export const LabelInputSearch = styled.div`
   font-family: 'Nunito Sans', sans-serif;
   color: #143d59;
   font-weight: 600;
-`;
+`
 
 export const InputSearch = styled.input`
   width: 39rem;
@@ -29,7 +28,7 @@ export const InputSearch = styled.input`
   &:focus {
     background-color: #e8f0fe;
   }
-`;
+`
 
 export const Button = styled.button`
   padding: 5px 10px;
@@ -44,7 +43,7 @@ export const Button = styled.button`
   font-weight: 600;
   height: 40px;
   cursor: pointer;
-`;
+`
 
 export const Container = styled.div`
   max-width: 1320px;
@@ -54,7 +53,7 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-`;
+`
 
 export const Card = styled.div`
   width: 49%;
@@ -62,7 +61,7 @@ export const Card = styled.div`
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   display: flex;
-`;
+`
 
 export const BoxHeader = styled.div`
   & img {
@@ -72,7 +71,7 @@ export const BoxHeader = styled.div`
     object-fit: cover;
     object-position: 100% 46%;
   }
-`;
+`
 
 export const BoxText = styled.div`
   padding: 10px;
@@ -101,4 +100,4 @@ export const BoxText = styled.div`
     margin-left: 4px;
     font-weight: 500;
   }
-`;
+`

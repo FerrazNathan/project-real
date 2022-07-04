@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Card = styled.div`
   width: 100%;
-  max-width: 1290px;
+  max-width: 1335px;
   height: auto;
   margin: -10px auto;
   display: flex;

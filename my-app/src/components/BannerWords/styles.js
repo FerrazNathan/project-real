@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Section = styled.div`
   width: 100%;
   background-color: #282c34;
   border: 1px solid #f0d882;
   margin: 40px 0 10px 0;
-`;
+`
 
 export const Container = styled.div`
   background-color: #282c34;
@@ -33,4 +33,4 @@ export const Container = styled.div`
       margin: 0 2rem;
     }
   }
-`;
+`

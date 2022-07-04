@@ -1,14 +1,14 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.footer`
   width: 100%;
   background-color: #282c34;
   position: relative;
   padding-bottom: 10px;
-`;
+`
 
 export const ContentFooter = styled.div`
-  max-width: 1335px;
+  max-width: 1380px;
   width: 100%;
   height: 10%;
   margin: 0 auto;
@@ -36,7 +36,7 @@ export const ContentFooter = styled.div`
       margin-bottom: 3rem;
     }
   }
-`;
+`
 export const Text = styled.div`
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@ export const Text = styled.div`
     @media (max-width: 768px) {
     }
   }
-`;
+`
 
 export const ContentContact = styled.div`
   margin-right: 2rem;
@@ -60,4 +60,4 @@ export const ContentContact = styled.div`
   @media (max-width: 768px) {
     margin: 0 4rem 2rem 0;
   }
-`;
+`

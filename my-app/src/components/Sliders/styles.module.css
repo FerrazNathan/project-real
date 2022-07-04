@@ -1,6 +1,6 @@
 .content{
   max-width: 1990px;
-  width: 99.09vw;
+  width: 100%;
   
 }
 
@@ -16,6 +16,11 @@
   margin-right: 20px;
 }
 
+.single{
+  max-width: 1990px;
+  width: 100%;
+}
+
 .single img {
   width: 100vw;
   height: 65vh;
@@ -23,6 +28,7 @@
   cursor: pointer;
   object-fit: cover;
   object-position: 100% 30%;
+  overflow: hidden;
 }
 
 @media(max-width: 768px){
