@@ -8,7 +8,7 @@ export default function Contacts() {
 		<div>
 			<Header />
 			<S.Banner>
-				<Banner img='./members.jpeg' />
+				<Banner img='./members.jpeg' alt='Banner da página'/>
 			</S.Banner>
 			<Register />
 			<Footer />

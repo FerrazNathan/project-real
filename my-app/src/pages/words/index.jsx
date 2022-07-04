@@ -11,7 +11,7 @@ export default function Words() {
 		<div>
 			<Header />
 			<S.Banner>
-				<Banner img='https://i.ytimg.com/vi/JzvI1Utww3U/maxresdefault.jpg' />
+				<Banner img='https://i.ytimg.com/vi/JzvI1Utww3U/maxresdefault.jpg' alt='Banner da página'/>
 			</S.Banner>
 			<BannerWords title='Palavras poderosas dos nossos pastores' />
 			<S.Video>
