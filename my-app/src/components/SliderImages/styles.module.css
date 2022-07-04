@@ -27,6 +27,7 @@
   height: 60vh;
   margin-bottom: -3px;
   cursor: pointer;
+  object-fit: cover;
 }
 
 @media (max-width: 480px) {

@@ -1,14 +1,14 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.section`
-  max-width: 1240px;
+  /* max-width: 1240px; */
   width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-`;
+`
 
 export const Banner = styled.div`
   max-width: 1940px;
@@ -26,10 +26,10 @@ export const Banner = styled.div`
       height: 40vh;
     }
   }
-`;
+`
 
 export const BoxText = styled.div`
   width: 100%;
   background-color: #282c34;
   margin-top: 40px;
-`;
+`

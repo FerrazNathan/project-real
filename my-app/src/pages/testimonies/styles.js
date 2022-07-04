@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const ContainerMain = styled.section`
   height: 100%;
-`;
+`
 
 export const Banner = styled.div`
   max-width: 1940px;
@@ -20,7 +20,7 @@ export const Banner = styled.div`
       height: 40vh;
     }
   }
-`;
+`
 
 export const Video = styled.div`
   max-width: 1260px;
@@ -30,4 +30,4 @@ export const Video = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-`;
+`

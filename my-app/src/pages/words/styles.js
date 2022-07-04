@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Banner = styled.div`
   max-width: 1940px;
@@ -14,7 +14,7 @@ export const Banner = styled.div`
       height: 40vh;
     }
   }
-`;
+`
 
 export const Video = styled.div`
   width: 1260px;
@@ -30,4 +30,4 @@ export const Video = styled.div`
     width: 98%;
     margin: 0.2rem 0.2rem;
   }
-`;
+`

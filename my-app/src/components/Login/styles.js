@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.section`
   margin: 50px auto;
@@ -8,7 +8,7 @@ export const Container = styled.section`
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
-`;
+`
 
 export const Title = styled.h1`
   color: linear-gradient(#cda83d 50%, #f0d882);
@@ -21,7 +21,7 @@ export const Title = styled.h1`
   @media (max-width: 768px) {
     margin: 20px auto;
   }
-`;
+`
 
 export const Subtitle = styled.h2`
   /* color: #fff9c7; */
@@ -30,7 +30,7 @@ export const Subtitle = styled.h2`
   font-size: 60px;
   font-weight: 400;
   text-align: center;
-`;
+`
 
 export const Input = styled.input`
   width: 30%;
@@ -49,7 +49,7 @@ export const Input = styled.input`
     width: 75%;
     margin-left: 3rem;
   }
-`;
+`
 
 export const Buttons = styled.div`
   display: flex;
@@ -59,7 +59,7 @@ export const Buttons = styled.div`
     margin: 0 auto;
     margin-left: 40px;
   }
-`;
+`
 
 export const Button = styled.button`
   background-color: #143d59;
@@ -73,4 +73,4 @@ export const Button = styled.button`
     margin-top: -8px;
     margin-bottom: 5px;
   }
-`;
+`

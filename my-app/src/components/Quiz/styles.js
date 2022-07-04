@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.section`
   max-width: 1335px;
@@ -9,7 +9,7 @@ export const Container = styled.section`
   justify-content: center;
   align-items: center;
   font-family: 'Nunito Sans', sans-serif;
-`;
+`
 
 export const ContentQuestion = styled.div`
   & h2 {
@@ -39,7 +39,7 @@ export const ContentQuestion = styled.div`
     width: 80%;
     margin-left: 1rem;
   }
-`;
+`
 
 export const Select = styled.select`
   background-color: #fff;
@@ -55,7 +55,7 @@ export const Select = styled.select`
   &:focus {
     background-color: #e8f0fe;
   }
-`;
+`
 
 export const ButtonConclusion = styled.button`
   padding: 15px;
@@ -75,4 +75,4 @@ export const ButtonConclusion = styled.button`
   @media (min-width: 769px) {
     width: 50%;
   }
-`;
+`

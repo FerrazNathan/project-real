@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Banner = styled.div`
   max-width: 1940px;
@@ -12,7 +12,7 @@ export const Banner = styled.div`
       height: 40vh;
     }
   }
-`;
+`
 
 export const ListQuestions = styled.div`
   max-width: 1220px;
@@ -22,13 +22,13 @@ export const ListQuestions = styled.div`
   @media (max-width: 768px) {
     margin-left: 0.3rem;
   }
-`;
+`
 
 export const TextMain = styled.p`
   font-size: 1.2rem;
-`;
+`
 
 export const SpanText = styled.span`
   text-transform: uppercase;
   font-weight: 500;
-`;
+`

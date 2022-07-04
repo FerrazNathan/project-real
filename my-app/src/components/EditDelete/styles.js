@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
   max-width: 1320px;
@@ -8,7 +8,7 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-`;
+`
 
 export const Card = styled.div`
   width: 30%;
@@ -33,7 +33,7 @@ export const Card = styled.div`
     margin-left: 1rem;
     margin-bottom: -1.5rem;
   }
-`;
+`
 
 export const Button = styled.button`
   padding: 5px 10px;
@@ -48,7 +48,7 @@ export const Button = styled.button`
   font-weight: 600;
   height: 40px;
   cursor: pointer;
-`;
+`
 
 export const Input = styled.input`
   padding: 10px;
@@ -62,12 +62,12 @@ export const Input = styled.input`
   &:focus {
     background-color: #e8f0fe;
   }
-`;
+`
 
 export const Label = styled.label`
   text-transform: uppercase;
   margin: 5px 0 -5px 5px;
-`;
+`
 
 export const InputMaskTel = styled.div`
   display: flex;
@@ -91,7 +91,7 @@ export const InputMaskTel = styled.div`
   & button {
     margin-top: 0;
   }
-`;
+`
 
 export const Select = styled.select`
   padding: 10px;
@@ -106,7 +106,7 @@ export const Select = styled.select`
   &:focus {
     background-color: #e8f0fe;
   }
-`;
+`
 
 export const ButtonRemove = styled.button`
   padding: 5px 10px;
@@ -122,4 +122,4 @@ export const ButtonRemove = styled.button`
   font-weight: 600;
   height: 40px;
   cursor: pointer;
-`;
+`
