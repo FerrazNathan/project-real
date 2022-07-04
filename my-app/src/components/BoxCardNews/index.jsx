@@ -27,7 +27,7 @@ export default function BoxCardNews() {
 				/>
 				<CardNews
 					title='Casas de paz'
-					src='https://igreja-presbiteriana-peniel.webnode.com/_files/200000011-85f4e86f03/Casa-de-Paz1.jpeg'
+					src='https://s3-sa-east-1.amazonaws.com/inradar.media/uploads/page/None/page-88c658e3c8c307e6158ae2720417e3b5.jpg'
 					text='O objetivo é fazer a igreja crescer e cumprir a grande comissão deixada por Jesus: fazer discípulos!'
 					date='Toda quarta-feira'
 					local='Vila Suissa'
