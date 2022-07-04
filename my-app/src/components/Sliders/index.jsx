@@ -21,27 +21,27 @@ export default function Sliders({ settings, children }) {
 			<S.Container className={styles.container}>
 				<SwiperSlide className={styles.single}>
 					<a onClick={() => redirect('/members')}>
-						<img src="./members.jpeg" />
+						<img src="./members.jpeg" alt='Banner da pagina de membros'/>
 					</a>
 				</SwiperSlide>
 				<SwiperSlide className={styles.single}>
 					<a onClick={() => redirect('/words')}>
-						<img src="https://i.ytimg.com/vi/JzvI1Utww3U/maxresdefault.jpg" />
+						<img src="https://i.ytimg.com/vi/JzvI1Utww3U/maxresdefault.jpg" alt='Banner da pagina de palavras'/>
 					</a>
 				</SwiperSlide>
 				<SwiperSlide className={styles.single}>
 					<a onClick={() => redirect('/events')}>
-						<img src="./bg_conv.png" />
+						<img src="./bg_conv.png" alt='Banner da pagina de eventos'/>
 					</a>
 				</SwiperSlide>
 				<SwiperSlide className={styles.single}>
 					<a onClick={() => redirect('/testimonies')}>
-						<img src="./testemunho.jpg" />
+						<img src="./testemunho.jpg" alt='Banner da pagina de testemunhos'/>
 					</a>
 				</SwiperSlide>
 				<SwiperSlide className={styles.single}>
 					<a onClick={() => redirect('/ourCell')}>
-						<img src="http://www.videirafrankfurt.de/img/celula.jpg" />
+						<img src="http://www.videirafrankfurt.de/img/celula.jpg" alt='Banner da pagina da nossa célula'/>
 					</a>
 				</SwiperSlide>
 			</S.Container>

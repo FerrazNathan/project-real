@@ -80,7 +80,7 @@ export default function EditDelete() {
 					return (
 						<S.Card key={item}>
 							<S.DivInputButton>
-								<img src={item[1].image} />
+								<img src={item[1].image} alt='imagem de perfil'/>
 								<S.Input
 									type="text"
 									placeholder="url da imagem"

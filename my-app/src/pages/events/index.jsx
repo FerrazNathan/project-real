@@ -11,7 +11,7 @@ export default function Events() {
 		<div>
 			<Header />
 			<S.Banner>
-				<Banner img="./bg_conv.png" />
+				<Banner img="./bg_conv.png" alt='Banner da convenção'/>
 			</S.Banner>
 			<BannerWords title="Fique por dentro do que rola entre nós" />
 			<S.Container>

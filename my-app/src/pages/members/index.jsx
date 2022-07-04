@@ -28,7 +28,7 @@ export default function Members() {
 		<>
 			<Header />
 			<S.Banner>
-				<Banner img='./members.jpeg' />
+				<Banner img='./members.jpeg' alt='Banner da página'/>
 			</S.Banner>
 			{member ? (
 				<BannerWords title={`Olá ${name}, ${dataText.MEMBER}`} text={dataText.VERYIMPORTANT} />

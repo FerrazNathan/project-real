@@ -77,7 +77,7 @@ export default function Results() {
 		<>
 			<Header />
 			<S.Banner>
-				<Banner img="https://i1.wp.com/fmpsc.edu.br/wp-content/uploads/2018/12/saiu-o-resultado-banner-noticia-jpg.jpg" />
+				<Banner img="https://i1.wp.com/fmpsc.edu.br/wp-content/uploads/2018/12/saiu-o-resultado-banner-noticia-jpg.jpg" alt='Banner da página'/>
 			</S.Banner>
 			<BannerWords
 				title="Essas foram as suas respostas"
