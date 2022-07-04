@@ -17,6 +17,9 @@ export const Formulary = styled.form`
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
+  @media (max-width: 768px){
+    width: 90%;
+  }
 `
 
 export const Input = styled.input`

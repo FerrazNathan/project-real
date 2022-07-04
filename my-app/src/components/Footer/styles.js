@@ -33,7 +33,7 @@ export const ContentFooter = styled.div`
       flex-wrap: wrap;
       justify-content: space-between;
       margin-right: 3rem;
-      margin-bottom: 3rem;
+      margin-bottom: 4rem;
     }
   }
 `
@@ -50,7 +50,11 @@ export const Text = styled.div`
     margin-top: 0;
     margin-bottom: -2rem;
     @media (max-width: 768px) {
+      font-size: 2rem;
     }
+  }
+  @media(max-width: 768px){
+    margin-top: -4rem;
   }
 `
 
@@ -58,6 +62,6 @@ export const ContentContact = styled.div`
   margin-right: 2rem;
   margin-top: 2rem;
   @media (max-width: 768px) {
-    margin: 0 4rem 2rem 0;
+    /* margin: 0 4rem 2rem 0; */
   }
 `
