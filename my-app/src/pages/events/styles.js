@@ -9,7 +9,7 @@ export const Banner = styled.div`
     height: 65vh;
     margin-bottom: -3px;
     object-fit: cover;
-    object-position: 100% 35%;
+    object-position: 100% 30%;
     @media (max-width: 768px) {
       object-fit: cover;
       object-position: 10% 5%;
