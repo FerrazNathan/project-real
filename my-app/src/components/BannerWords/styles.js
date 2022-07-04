@@ -29,6 +29,7 @@ export const Container = styled.div`
     margin-top: 0;
     font-size: 28px;
     text-align: center;
+    color: #fce799;
     @media (max-width: 768px) {
       margin: 0 2rem;
     }

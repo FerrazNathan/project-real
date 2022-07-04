@@ -73,8 +73,6 @@ export default function Results() {
 		}
 	}
 
-	console.log('o que e isso aqui?', paramsQuestions)
-
 	return (
 		<>
 			<Header />

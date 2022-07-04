@@ -65,6 +65,13 @@ export default function EditDelete() {
 				throw new Error('Algo deu errado na conexão')
 			})
 	}
+	//FUNÇÃO PARA BLOQUEAR O ACESSO DE USUARIOS DIFERENTES DO LÍDER DIRETO PELA URL
+	useEffect(() => {
+		const response = localStorage.getItem('name')
+		if (response !== 'Felipe') {
+			window.location.replace('/members')
+		}
+	}, [])
 
 	return (
 		<S.Container>

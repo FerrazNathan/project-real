@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import InputMask from 'react-input-mask'
 import BannerWords from '../BannerWords'
@@ -41,6 +41,14 @@ export default function Register() {
 			throw new Error('Algo deu errado na conexão')
 		}
 	}
+	//FUNÇÃO PARA BLOQUEAR O ACESSO DE USUARIOS DIFERENTES DO LÍDER DIRETO PELA URL
+	useEffect(() => {
+		const response = localStorage.getItem('name')
+		if (response !== 'Felipe') {
+			window.location.replace('/members')
+		}
+	}, [])
+
 	return (
 		<>
 			<S.Banner>
