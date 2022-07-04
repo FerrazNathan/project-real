@@ -23,6 +23,9 @@ export const Card = styled.div`
     border-radius: 16px;
     object-fit: cover;
     object-position: 100% 46%;
+    @media (max-width: 768px){
+      width: 100%;
+    }
   }
   & h3 {
     margin-left: 1rem;
@@ -33,6 +36,16 @@ export const Card = styled.div`
     margin-left: 1rem;
     margin-bottom: -1.5rem;
   }
+  @media (max-width: 768px){
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+`
+
+export const DivInputButton = styled.div`
+ 
 `
 
 export const Button = styled.button`
@@ -48,6 +61,9 @@ export const Button = styled.button`
   font-weight: 600;
   height: 40px;
   cursor: pointer;
+  @media (max-width: 768px) {
+    margin-right: 0.2rem;
+  }
 `
 
 export const Input = styled.input`
@@ -103,6 +119,7 @@ export const Select = styled.select`
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
   outline: 0;
   background-color: #fff;
+  font-size: 1.2rem;
   &:focus {
     background-color: #e8f0fe;
   }

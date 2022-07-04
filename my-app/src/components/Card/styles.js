@@ -15,9 +15,6 @@ export const Container = styled.section`
     margin: 0.5rem 0.8rem;
     height: 40vh;
   }
-  @media (max-width: 1366px) {
-    width: 46%;
-  }
 `
 
 export const Content = styled.div`

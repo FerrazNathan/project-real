@@ -6,14 +6,29 @@ export const ContentSearch = styled.div`
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 768px){
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
 `
 
-export const ContentLabelInputSearch = styled.div``
+export const ContentLabelInputSearch = styled.div`
+@media (max-width: 768px){
+  width: 90%;
+  margin: 0 auto;
+}`
 
 export const LabelInputSearch = styled.div`
   font-family: 'Nunito Sans', sans-serif;
   color: #143d59;
   font-weight: 600;
+  @media (max-width: 768px){
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
 `
 
 export const InputSearch = styled.input`
@@ -27,6 +42,11 @@ export const InputSearch = styled.input`
   cursor: pointer;
   &:focus {
     background-color: #e8f0fe;
+  }
+  @media (max-width: 768px){
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
   }
 `
 
@@ -43,6 +63,10 @@ export const Button = styled.button`
   font-weight: 600;
   height: 40px;
   cursor: pointer;
+  @media (max-width: 768px){
+    width: 90%;
+    margin: 0.5rem auto;
+  }
 `
 
 export const Container = styled.div`
@@ -53,6 +77,10 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  @media (max-width: 768px){
+    display: flex;
+    flex-direction: column;
+  }
 `
 
 export const Card = styled.div`
@@ -61,6 +89,11 @@ export const Card = styled.div`
   box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   display: flex;
+  @media (max-width: 768px){
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 `
 
 export const BoxHeader = styled.div`
@@ -70,6 +103,13 @@ export const BoxHeader = styled.div`
     border-radius: 16px 0 0 16px;
     object-fit: cover;
     object-position: 100% 46%;
+    @media (max-width: 768px){
+    width: 100%;
+    height: 200px;
+    border-radius: 16px;
+    object-fit: cover;
+    object-position: 100% 30%;
+  }
   }
 `
 
@@ -87,6 +127,10 @@ export const BoxText = styled.div`
     text-decoration: underline;
     font-weight: 400;
     font-size: 40px;
+    @media (max-width: 768px){
+      text-align: center;
+      margin-left: 5rem;
+    }
   }
   & p {
     font-size: 1rem;
@@ -99,5 +143,10 @@ export const BoxText = styled.div`
   & span {
     margin-left: 4px;
     font-weight: 500;
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
   }
 `

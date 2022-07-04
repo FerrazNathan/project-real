@@ -54,7 +54,7 @@ export const ContentImage = styled.div`
       height: 25vh;
       border-radius: 16px 16px 0 0;
       object-fit: cover;
-      object-position: 0% 50%;
+      object-position: 50% 50%;
     }
     @media (min-width: 769px) {
       width: 60vw;
