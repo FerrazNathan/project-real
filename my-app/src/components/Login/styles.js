@@ -63,11 +63,12 @@ export const Buttons = styled.div`
 
 export const Button = styled.button`
   background-color: #143d59;
-  color: #f0d882;
+  color: #fff9c7;
   border-radius: 5px;
   border: none;
   margin-right: 20px;
   padding: 10px;
+  font-weight: 600;
   cursor: pointer;
   @media (max-width: 768px) {
     margin-top: -8px;

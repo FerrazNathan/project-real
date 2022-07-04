@@ -45,7 +45,7 @@ export const Text = styled.div`
     text-align: center;
     font-family: 'Great Vibes', cursive;
     font-size: 35px;
-    color: #f0d882;
+    color: #fce799;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: -2rem;
@@ -61,6 +61,7 @@ export const Text = styled.div`
 export const ContentContact = styled.div`
   margin-right: 2rem;
   margin-top: 2rem;
+  color: #fce799;
   @media (max-width: 768px) {
     /* margin: 0 4rem 2rem 0; */
   }

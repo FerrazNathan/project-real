@@ -7,7 +7,6 @@ export const clearing = () => {
 }
 
 export const leader = (urlParams) => {
-	console.log(urlParams?.leader, 'fjgrtnhnrtkenk')
 	if (urlParams?.leader === 'felipe') {
 		return <img src="./icone-ok.png" alt="ícone de correto" />
 	} else {
