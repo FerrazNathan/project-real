@@ -31,8 +31,6 @@ export default function Header() {
 					<li onClick={() => redirect('/testimonies')}>Testemunhos</li>
 					<li onClick={() => redirect('/ourCell')}>Nossa célula</li>
 				</ul>
-				<S.Icon>
-				</S.Icon>
 			</S.ContentHeader>
 			<S.Button>
 				<FaSignOutAlt onClick={() => clearing()}/>

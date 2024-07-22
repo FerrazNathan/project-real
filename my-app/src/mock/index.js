@@ -3,10 +3,10 @@ export const wordMovies = [
 		video: 'https://www.youtube.com/embed/WaHQXmxjH8g',
 		text: 'Como ser dirigido pelo Espírito Santo',
 	},
-	{
-		video: 'https://www.youtube.com/embed/XeyRxb3jN3Q',
-		text: 'Gaste os dias para viver o propósito de Deus',
-	},
+	// {
+	// 	video: 'https://www.youtube.com/embed/XeyRxb3jN3Q',
+	// 	text: 'Gaste os dias para viver o propósito de Deus',
+	// },
 	{
 		video: 'https://www.youtube.com/embed/5hrffbE9tpY',
 		text: 'O drama da cruz',
@@ -15,46 +15,46 @@ export const wordMovies = [
 		video: 'https://www.youtube.com/embed/2KQCN_4Q9EU',
 		text: 'Paternidade para as nações',
 	},
-	{
-		video: 'https://www.youtube.com/embed/vDSt-RuEgcQ',
-		text: 'O Pai Pródigo',
-	},
+	// {
+	// 	video: 'https://www.youtube.com/embed/vDSt-RuEgcQ',
+	// 	text: 'O Pai Pródigo',
+	// },
 	{
 		video: 'https://www.youtube.com/embed/ChIPwSGlpJU',
 		text: 'Graça sobrenatural',
 	},
-	{
-		video: 'https://www.youtube.com/embed/HqdQ94g0TYQ',
-		text: 'A fé que vence o medo',
-	},
-	{
-		video: 'https://www.youtube.com/embed/HHqmGgBXhDI',
-		text: 'A grande troca do calvário',
-	},
-	{
-		video: 'https://www.youtube.com/embed/l6_qt2XkABg',
-		text: 'Os sonhos nunca morrem',
-	},
-	{
-		video: 'https://www.youtube.com/embed/bHB2wM6XiKc',
-		text: 'Removendo as cinzas e Renovando o fogo',
-	},
-	{
-		video: 'https://www.youtube.com/embed/i2CFS_2Vehg',
-		text: 'Nós somos a carta',
-	},
-	{
-		video: 'https://www.youtube.com/embed/40ntVJ3eJ94',
-		text: 'Sinais de que Jesus está em casa',
-	},
-	{
-		video: 'https://www.youtube.com/embed/JJiacaa7jcg',
-		text: 'Espírito Santo o Deus esquecido',
-	},
-	{
-		video: 'https://www.youtube.com/embed/itnMyXJnK4w',
-		text: 'Libertando-se do mal do esquecimento',
-	},
+	// {
+	// 	video: 'https://www.youtube.com/embed/HqdQ94g0TYQ',
+	// 	text: 'A fé que vence o medo',
+	// },
+	// {
+	// 	video: 'https://www.youtube.com/embed/HHqmGgBXhDI',
+	// 	text: 'A grande troca do calvário',
+	// },
+	// {
+	// 	video: 'https://www.youtube.com/embed/l6_qt2XkABg',
+	// 	text: 'Os sonhos nunca morrem',
+	// },
+	// {
+	// 	video: 'https://www.youtube.com/embed/bHB2wM6XiKc',
+	// 	text: 'Removendo as cinzas e Renovando o fogo',
+	// },
+	// {
+	// 	video: 'https://www.youtube.com/embed/i2CFS_2Vehg',
+	// 	text: 'Nós somos a carta',
+	// },
+	// {
+	// 	video: 'https://www.youtube.com/embed/40ntVJ3eJ94',
+	// 	text: 'Sinais de que Jesus está em casa',
+	// },
+	// {
+	// 	video: 'https://www.youtube.com/embed/JJiacaa7jcg',
+	// 	text: 'Espírito Santo o Deus esquecido',
+	// },
+	// {
+	// 	video: 'https://www.youtube.com/embed/itnMyXJnK4w',
+	// 	text: 'Libertando-se do mal do esquecimento',
+	// },
 	{
 		video: 'https://www.youtube.com/embed/8Dh4WHPRh74',
 		text: 'Os 4 cavaleiros do Apocalipse',

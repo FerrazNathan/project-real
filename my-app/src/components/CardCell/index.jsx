@@ -3,6 +3,14 @@ import * as S from './styles'
 import { dataText } from '../../common/constants/dataText'
 
 export default function CardCell() {
+
+	// let x: number = 10;
+	// let y: number = 20;
+    
+	// function sum(a: number, b: number): number {
+	//     return a + b;
+	// }    
+
 	return (
 		<S.Container>
 			<S.Header>

@@ -11,22 +11,26 @@ export const ContentHeader = styled.div`
   width: 100%;
   height: 15%;
   margin: 0 auto;
-  background-color: #282c34;
+  background: #282c34;
   color: #fce799;
   padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
   & ul {
-    margin-top: 35px;
-    margin-right: 3%;
-    margin-bottom: -10px;
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
     list-style: none;
     font-family: 'Nunito Sans', sans-serif;
     cursor: pointer;
     & :hover {
       color: #fff;
     }
+
     @media (max-width: 768px) {
       display: flex;
       flex-wrap: wrap;
@@ -53,22 +57,28 @@ export const Button = styled.button`
 `
 
 export const Text = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
   & h1 {
     text-align: center;
     font-family: 'Great Vibes', cursive;
     color: #fce799;
     font-weight: 400;
-    margin-bottom: -25px;
-    margin-top: 0;
-    font-size: 60px;
+    font-size: 44px;
+    margin: 0 auto;
+    line-height: 1;
   }
+
   & h2 {
-    font-size: 35px;
+    font-size: 32px;
     text-align: center;
     font-family: 'Great Vibes', cursive;
     color: #fce799;
-    font-weight: 300;
-    margin-bottom: -15px;
+    font-weight: normal;
+    margin: 0 auto;
+    line-height: 1;
   }
 `
 

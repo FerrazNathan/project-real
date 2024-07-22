@@ -15,9 +15,9 @@ export default function Words() {
 			</S.Banner>
 			<BannerWords title='Palavras poderosas dos nossos pastores' />
 			<S.Video>
-				{wordMovies.map((item) => {
+				{wordMovies.map((item, index) => {
 					return (
-						<CardVideo text={item.text} video={item.video} key={item} />
+						<CardVideo text={item.text} video={item.video} key={index} />
 					)
 				})}
 			</S.Video>
