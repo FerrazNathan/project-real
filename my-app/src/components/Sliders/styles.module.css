@@ -23,7 +23,7 @@
 
 .single img {
   width: 100vw;
-  height: 65vh;
+  height: 50vh;
   margin-bottom: -3px;
   cursor: pointer;
   object-fit: cover;

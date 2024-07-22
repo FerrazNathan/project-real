@@ -19,7 +19,7 @@ export const ContentFooter = styled.div`
   background: #282c34;
   color: #f0d882;
   padding: 5px;
-  // margin-top: 2.9rem;
+  
   & ul {
     margin-top: 20px;
     margin-right: 3%;

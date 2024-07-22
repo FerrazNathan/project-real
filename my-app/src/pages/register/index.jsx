@@ -1,17 +1,9 @@
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
-import Banner from '../../components/Banner'
-import Register from '../../components/Register'
-import * as S from './styles'
-export default function Contacts() {
+import React from 'react'
+import SectionRegister from '../../sections/SectionRegister'
+export default function Register() {
 	return (
-		<div>
-			<Header />
-			<S.Banner>
-				<Banner img='./members.jpeg' alt='Banner da página'/>
-			</S.Banner>
-			<Register />
-			<Footer />
-		</div>
+		<React.Fragment>
+			<SectionRegister />
+		</React.Fragment>
 	)
 }
