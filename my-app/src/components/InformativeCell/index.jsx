@@ -30,13 +30,13 @@ export default function InformativeCell() {
 				</S.ContainerText>
 
 				<S.TextTitle>Nossa Visão</S.TextTitle>
-				{ vision.map((text) => {
-					return <S.TextBody key={text}>{text.text}</S.TextBody>					
+				{ vision.map((text, index) => {
+					return <S.TextBody key={index}>{text.text}</S.TextBody>					
 				})}
 
 				<S.TextTitle>Nossos alvos</S.TextTitle>
-				{target.map((text) => {
-					return <S.TextBody key={text}>{text.text}</S.TextBody>
+				{target.map((text, index) => {
+					return <S.TextBody key={index}>{text.text}</S.TextBody>
 				})}
 			</S.ContentMain>
 		</>
